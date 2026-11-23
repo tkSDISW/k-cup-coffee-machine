@@ -161,6 +161,8 @@
               id="a742f5f5-60f9-4587-b7b0-f42f3b4e6d4b" involved="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="c2317ba5-05ec-4862-85ee-8d823f2ed222" involved="#65342e93-d242-4b83-8a78-cffa08d58b16"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="9febb3a2-638c-4c1e-a37f-4316d975bc73" involved="#838b5f6c-a58b-41da-8180-182fd488bc2f"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="dbe3d6d0-1aec-4c2c-8dde-178c975cc9b0" name="Keep the equipment supplied with water"
@@ -169,12 +171,16 @@
               id="bf1f73b1-494d-4f17-b066-4077a7c208f2" involved="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="f7b9fb84-a752-40f4-9904-0b4852f9702e" involved="#65342e93-d242-4b83-8a78-cffa08d58b16"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="68650d48-2910-4a3c-a2b0-53c7f1d79473" involved="#838b5f6c-a58b-41da-8180-182fd488bc2f"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="f0785c42-386a-42c3-a129-dc98443695a1" name="Return to readiness after idle"
             description="Need served: save energy without a long wait. Drivers: convenience. May move to System Analysis when tuning. Draft: NOTE-0002 revision 2, capability 8.">
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="4eddb7fa-918d-445a-97f7-2c395d98e5f7" involved="#65342e93-d242-4b83-8a78-cffa08d58b16"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="cbc45d58-d0fb-4a36-a8ea-0276cf35ea25" involved="#838b5f6c-a58b-41da-8180-182fd488bc2f"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="61cc6b71-b307-43f0-9b06-d58b33fbc086" name="Operate across a range of conditions"
