@@ -45,10 +45,7 @@
           ReqIFLongName="Base User Requirements">
         <ownedRequirements xsi:type="Requirements:Requirement" id="d3a7b156-986c-43e0-b9df-019d4ba8a963"
             ReqIFDescription="Rationale: convenience depends on how long a cup takes. Capabilities (NOTE-0002): 1, 6, 8. Verification: Test (proposed category). Evidence: U; values TBD. Draft: NOTE-0003 revision 2."
-            ReqIFLongName="Coffee preparation cycle time" ReqIFName="UR-B-04" ReqIFText="The coffee preparation cycle time shall be defined and bounded: (a) from request to coffee available at serving temperature when the system is ready (TBD); (b) from a cold or idle start (TBD); (c) between consecutive servings (TBD).">
-          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="1a869ad3-880c-46ad-994d-5864d0162076"
-              target="#b9407bbc-98fa-4479-bdf4-7d82b519bcd8" source="#d3a7b156-986c-43e0-b9df-019d4ba8a963"/>
-        </ownedRequirements>
+            ReqIFLongName="Coffee preparation cycle time" ReqIFName="UR-B-04" ReqIFText="The coffee preparation cycle time shall be defined and bounded: (a) from request to coffee available at serving temperature when the system is ready (TBD); (b) from a cold or idle start (TBD); (c) between consecutive servings (TBD)."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="b9ec03d9-dc96-43dd-a29d-9980479f0ab3"
             ReqIFDescription="Rationale: different preferences in one household; a lighter option for later in the day. Capabilities (NOTE-0002): 2, 3. Verification: Demonstration (proposed category). Evidence: U. Draft: NOTE-0003 revision 2."
             ReqIFLongName="Coffee varieties" ReqIFName="UR-B-01" ReqIFText="The system shall support at least three distinct coffee varieties: one preferred by a first drinker, one preferred by a second drinker, and one reduced-caffeine variety (for example half-caffeine) for daytime use."/>
@@ -118,6 +115,9 @@
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="b9407bbc-98fa-4479-bdf4-7d82b519bcd8" name="Prepare a serving of hot coffee on demand"
             description="Need served: a cup when wanted, without preparing more than needed. Drivers: convenience. Draft: NOTE-0002 revision 2, capability 1.">
+          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+              id="c90cce26-1f23-4ad3-957f-525809f17d6d" ReqIFLongName="Satisfy" source="#b9407bbc-98fa-4479-bdf4-7d82b519bcd8"
+              target="#d3a7b156-986c-43e0-b9df-019d4ba8a963"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="0d19cdd8-de0b-46f4-9c9a-6a340d5b4acb" involved="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
@@ -231,29 +231,28 @@
       <ownedEntityPkg xsi:type="org.polarsys.capella.core.data.oa:EntityPkg" id="aa6df404-5957-4805-8af3-634c72c38d67"
           name="Operational Entities">
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="57113be1-02e3-4d75-b134-972c76f80a82"
-            name="Coffee Machine User" abstractType="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
+            name="Coffee Drinker" abstractType="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="6c83cbaa-79b0-4c3f-974b-47f3932f205d"
-            name="Coffer Machine" abstractType="#65342e93-d242-4b83-8a78-cffa08d58b16"/>
+            name="Coffee-Making Equipment" abstractType="#65342e93-d242-4b83-8a78-cffa08d58b16"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="7b2e565b-4158-4747-b831-4d49ec223cb1"
-            name="K-Cup Supply Chain" abstractType="#9a67ade9-4d1a-4689-815d-e257c98195eb"/>
+            name="Coffee Supply Chain" abstractType="#9a67ade9-4d1a-4689-815d-e257c98195eb"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="5fc83b7a-b00d-4e6e-9398-68762627937e"
-            name="K Cup Machine Support" abstractType="#95643ac7-ff7b-46e2-95a9-98f8518311de"/>
+            name="Equipment Support" abstractType="#95643ac7-ff7b-46e2-95a9-98f8518311de"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="63a1e7ce-43ed-4519-91ec-fef736a46638"
             name="Waste Handling" abstractType="#cf58782e-8589-414a-b68b-c3f0acbd7196"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="ab2fbbe3-830d-4109-beea-b64ace7fa48c"
             name="Utilities Supply" abstractType="#838b5f6c-a58b-41da-8180-182fd488bc2f"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="689a685b-ebfd-4b53-bc72-e55c5727210d"
-            name="Coffee Drinker" actor="true" human="true" description="External actor. The person who wants a cup of coffee and carries out the everyday steps: choosing a serving, loading supplies, adding water, collecting the coffee, handling what is discarded, and routine cleaning."/>
+            name="Coffee Drinker" description="External actor. The person who wants a cup of coffee and carries out the everyday steps: choosing a serving, loading supplies, adding water, collecting the coffee, handling what is discarded, and routine cleaning."
+            actor="true" human="true"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="65342e93-d242-4b83-8a78-cffa08d58b16"
             name="Coffee-Making Equipment" description="The equipment that turns supplies and water into a served cup of coffee on request, and stays ready between uses. Modeled as a generic entity; later phases describe the specific design."/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="9a67ade9-4d1a-4689-815d-e257c98195eb"
             name="Coffee Supply Chain" description="Producers, packagers, retailers and delivery services that provide ready-to-use coffee supplies to the drinker. For this model the relevant outputs are the supplies and their packaging; growing, roasting and shipping the coffee itself are outside the boundary (DEC-0009)."/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="838b5f6c-a58b-41da-8180-182fd488bc2f"
-            description="Provides the water and the electrical power that the equipment uses. One combined entity for now; water and power can be split later if the exchanges need it."
-            name="Utilities Supply"/>
+            name="Utilities Supply" description="Provides the water and the electrical power that the equipment uses. One combined entity for now; water and power can be split later if the exchanges need it."/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="cf58782e-8589-414a-b68b-c3f0acbd7196"
-            description="The household and municipal routes that receive what the drinker discards: used coffee remains and packaging. This is where recycling, composting or disposal happens, and where the waste goals (coffee in, coffee out) are measured."
-            name="Waste Handling"/>
+            name="Waste Handling" description="The household and municipal routes that receive what the drinker discards: used coffee remains and packaging. This is where recycling, composting or disposal happens, and where the waste goals (coffee in, coffee out) are measured."/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="95643ac7-ff7b-46e2-95a9-98f8518311de"
             name="Equipment Support" description="The manufacturer&amp;#x27;s support services that help the drinker with the equipment: guidance, replacement parts and warranty service."/>
       </ownedEntityPkg>
