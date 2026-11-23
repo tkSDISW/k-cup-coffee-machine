@@ -201,6 +201,9 @@
           <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
               id="56eb2243-e282-4b37-a684-4cee3f96d440" ReqIFLongName="Satisfy" source="#371f5f4d-b390-4b68-9a48-cb5a8bb5a6de"
               target="#88b90f2f-0f33-4841-beae-3f839583471a"/>
+          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+              id="1fbae34b-106d-4ac9-8c4a-fdee87bf99d0" source="#371f5f4d-b390-4b68-9a48-cb5a8bb5a6de"
+              target="#f34532ba-3bb1-42ce-8e8d-f972852a1f66"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="a742f5f5-60f9-4587-b7b0-f42f3b4e6d4b" involved="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
