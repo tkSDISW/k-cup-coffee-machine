@@ -8,7 +8,7 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_j75zYOUAEfGTQ5VwT1mR1g">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_pIW2sOdcEfGTQ5VwT1mR1g" name="[OCB] Operational Capabilities" repPath="#_pH3HcOdcEfGTQ5VwT1mR1g" changeId="1795459354125">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_pIW2sOdcEfGTQ5VwT1mR1g" name="[OCB] Operational Capabilities" repPath="#_pH3HcOdcEfGTQ5VwT1mR1g" changeId="1795459643347">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg" href="K%20Cup%20Coffee%20Maker.capella#e98f0aa8-6701-4804-adc3-d30d80ce6bb3"/>
       </ownedRepresentationDescriptors>
@@ -933,22 +933,6 @@
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__bocyudiEfGTQ5VwT1mR1g" id="(0.0,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__bocy-diEfGTQ5VwT1mR1g" id="(0.9274809160305344,0.8048780487804879)"/>
         </edges>
-        <edges xmi:type="notation:Edge" xmi:id="_1Fk40OdrEfGTQ5VwT1mR1g" type="4001" element="_1FGXsOdrEfGTQ5VwT1mR1g" source="_qnNaUOdcEfGTQ5VwT1mR1g" target="_Z23wAOdkEfGTQ5VwT1mR1g">
-          <children xmi:type="notation:Node" xmi:id="_1Fk41OdrEfGTQ5VwT1mR1g" type="6001">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1Fk41edrEfGTQ5VwT1mR1g" x="-2" y="-10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_1Fk41udrEfGTQ5VwT1mR1g" type="6002">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1Fk41-drEfGTQ5VwT1mR1g" x="7" y="10"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_1Fk42OdrEfGTQ5VwT1mR1g" type="6003">
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1Fk42edrEfGTQ5VwT1mR1g" x="7" y="10"/>
-          </children>
-          <styles xmi:type="notation:ConnectorStyle" xmi:id="_1Fk40edrEfGTQ5VwT1mR1g" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
-          <styles xmi:type="notation:FontStyle" xmi:id="_1Fk40udrEfGTQ5VwT1mR1g" fontColor="7227762" fontName="Segoe UI" fontHeight="8"/>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1Fk40-drEfGTQ5VwT1mR1g" points="[0, 0, 370, 198]$[-643, -163, -273, 35]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1Flf4OdrEfGTQ5VwT1mR1g" id="(0.0,0.6086956521739131)"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1Flf4edrEfGTQ5VwT1mR1g" id="(2.0330188679245285,0.36363636363636365)"/>
-        </edges>
         <edges xmi:type="notation:Edge" xmi:id="_ydN6AOdsEfGTQ5VwT1mR1g" type="4001" element="_yczqUOdsEfGTQ5VwT1mR1g" source="_qnNaUOdcEfGTQ5VwT1mR1g" target="_5WdOQOdiEfGTQ5VwT1mR1g">
           <children xmi:type="notation:Node" xmi:id="_ydN6BOdsEfGTQ5VwT1mR1g" type="6001">
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ydN6BedsEfGTQ5VwT1mR1g" y="-10"/>
@@ -1173,12 +1157,60 @@
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_paHFWudtEfGTQ5VwT1mR1g" id="(0.0,0.5)"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_paHFW-dtEfGTQ5VwT1mR1g" id="(1.0,0.5)"/>
         </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_L7EX8OduEfGTQ5VwT1mR1g" type="4001" element="_L6yEEOduEfGTQ5VwT1mR1g" source="_qhlTcOdcEfGTQ5VwT1mR1g" target="_Z23wAOdkEfGTQ5VwT1mR1g">
+          <children xmi:type="notation:Node" xmi:id="_L7EX9OduEfGTQ5VwT1mR1g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L7EX9eduEfGTQ5VwT1mR1g" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_L7EX9uduEfGTQ5VwT1mR1g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L7EX9-duEfGTQ5VwT1mR1g" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_L7EX-OduEfGTQ5VwT1mR1g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L7EX-eduEfGTQ5VwT1mR1g" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_L7EX8eduEfGTQ5VwT1mR1g" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_L7EX8uduEfGTQ5VwT1mR1g" fontColor="7227762" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_L7EX8-duEfGTQ5VwT1mR1g" points="[0, 0, 589, 120]$[-589, -120, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_L7EX-uduEfGTQ5VwT1mR1g" id="(0.0,0.6086956521739131)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_L7EX--duEfGTQ5VwT1mR1g" id="(1.0,0.509090909090909)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_RjAQ0OduEfGTQ5VwT1mR1g" type="4001" element="_Risu0OduEfGTQ5VwT1mR1g" source="_qp6wEOdcEfGTQ5VwT1mR1g" target="_hBCYAOdhEfGTQ5VwT1mR1g">
+          <children xmi:type="notation:Node" xmi:id="_RjA34OduEfGTQ5VwT1mR1g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RjA34eduEfGTQ5VwT1mR1g" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_RjA34uduEfGTQ5VwT1mR1g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RjA34-duEfGTQ5VwT1mR1g" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_RjA35OduEfGTQ5VwT1mR1g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RjA35eduEfGTQ5VwT1mR1g" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_RjAQ0eduEfGTQ5VwT1mR1g" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_RjAQ0uduEfGTQ5VwT1mR1g" fontColor="7227762" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RjAQ0-duEfGTQ5VwT1mR1g" points="[0, 0, 1057, 153]$[-1057, -153, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RjA35uduEfGTQ5VwT1mR1g" id="(0.0,0.5)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RjA35-duEfGTQ5VwT1mR1g" id="(1.0,0.24390243902439024)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_UgdgcOduEfGTQ5VwT1mR1g" type="4001" element="_UgFF8OduEfGTQ5VwT1mR1g" source="_qoEV8OdcEfGTQ5VwT1mR1g" target="_uuqW5OdnEfGTQ5VwT1mR1g">
+          <children xmi:type="notation:Node" xmi:id="_UgeHgOduEfGTQ5VwT1mR1g" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UgeHgeduEfGTQ5VwT1mR1g" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_UgeHguduEfGTQ5VwT1mR1g" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UgeHg-duEfGTQ5VwT1mR1g" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_UgeHhOduEfGTQ5VwT1mR1g" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UgeHheduEfGTQ5VwT1mR1g" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_UgdgceduEfGTQ5VwT1mR1g" jumpLinkStatus="Above" jumpLinkType="Tunnel"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_UgdgcuduEfGTQ5VwT1mR1g" fontColor="7227762" fontName="Segoe UI" fontHeight="8"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ugdgc-duEfGTQ5VwT1mR1g" points="[0, 0, 613, 0]$[-613, 0, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UgeHhuduEfGTQ5VwT1mR1g" id="(0.0,0.6739130434782609)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UgeHh-duEfGTQ5VwT1mR1g" id="(1.0,0.5)"/>
+        </edges>
       </data>
     </ownedAnnotationEntries>
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_pJsTcOdcEfGTQ5VwT1mR1g" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_pJthkOdcEfGTQ5VwT1mR1g"/>
     </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_qgegMOdcEfGTQ5VwT1mR1g" name="Prepare a serving of hot coffee on demand" outgoingEdges="_0rdGcOdcEfGTQ5VwT1mR1g _3QqOJOdcEfGTQ5VwT1mR1g _0YME0udfEfGTQ5VwT1mR1g _x4NwgOdhEfGTQ5VwT1mR1g" width="7" height="7" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_qgegMOdcEfGTQ5VwT1mR1g" name="Prepare a serving of hot coffee on demand" outgoingEdges="_0rdGcOdcEfGTQ5VwT1mR1g _3QqOJOdcEfGTQ5VwT1mR1g _0YME0udfEfGTQ5VwT1mR1g _x4NwgOdhEfGTQ5VwT1mR1g _L6yEEOduEfGTQ5VwT1mR1g" width="7" height="7" resizeKind="NSEW">
       <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="K%20Cup%20Coffee%20Maker.capella#b9407bbc-98fa-4479-bdf4-7d82b519bcd8"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="K%20Cup%20Coffee%20Maker.capella#b9407bbc-98fa-4479-bdf4-7d82b519bcd8"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -1189,7 +1221,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='COC_OperationalCapabilities']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_qgw0EOdcEfGTQ5VwT1mR1g" name="Tailor the serving to the occasion" outgoingEdges="_34cm4OdcEfGTQ5VwT1mR1g _40eKSudcEfGTQ5VwT1mR1g _1FGXsOdrEfGTQ5VwT1mR1g _yczqUOdsEfGTQ5VwT1mR1g _7cF5gOdsEfGTQ5VwT1mR1g" width="7" height="7" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_qgw0EOdcEfGTQ5VwT1mR1g" name="Tailor the serving to the occasion" outgoingEdges="_34cm4OdcEfGTQ5VwT1mR1g _40eKSudcEfGTQ5VwT1mR1g _yczqUOdsEfGTQ5VwT1mR1g _7cF5gOdsEfGTQ5VwT1mR1g" width="7" height="7" resizeKind="NSEW">
       <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="K%20Cup%20Coffee%20Maker.capella#6c286e47-703d-42d3-a74b-13bf27484acb"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="K%20Cup%20Coffee%20Maker.capella#6c286e47-703d-42d3-a74b-13bf27484acb"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -1211,7 +1243,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='COC_OperationalCapabilities']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_qgypQOdcEfGTQ5VwT1mR1g" name="Dispose of used coffee remains and packaging without mess" outgoingEdges="_6fNN0OdcEfGTQ5VwT1mR1g _6-GwVOdcEfGTQ5VwT1mR1g _nUpLcOdeEfGTQ5VwT1mR1g _GcvjgOdtEfGTQ5VwT1mR1g _OlcI8OdtEfGTQ5VwT1mR1g" width="7" height="7" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_qgypQOdcEfGTQ5VwT1mR1g" name="Dispose of used coffee remains and packaging without mess" outgoingEdges="_6fNN0OdcEfGTQ5VwT1mR1g _6-GwVOdcEfGTQ5VwT1mR1g _nUpLcOdeEfGTQ5VwT1mR1g _GcvjgOdtEfGTQ5VwT1mR1g _OlcI8OdtEfGTQ5VwT1mR1g _UgFF8OduEfGTQ5VwT1mR1g" width="7" height="7" resizeKind="NSEW">
       <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="K%20Cup%20Coffee%20Maker.capella#4dc6f3e5-d7bd-421f-91c0-dfe5b65aed10"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="K%20Cup%20Coffee%20Maker.capella#4dc6f3e5-d7bd-421f-91c0-dfe5b65aed10"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -1255,7 +1287,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@nodeMappings[name='COC_OperationalCapabilities']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_qg1FgudcEfGTQ5VwT1mR1g" name="Return to readiness after idle" outgoingEdges="_C4AExOddEfGTQ5VwT1mR1g _nUpyh-deEfGTQ5VwT1mR1g _caDIUOdtEfGTQ5VwT1mR1g" width="7" height="7" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_qg1FgudcEfGTQ5VwT1mR1g" name="Return to readiness after idle" outgoingEdges="_C4AExOddEfGTQ5VwT1mR1g _nUpyh-deEfGTQ5VwT1mR1g _caDIUOdtEfGTQ5VwT1mR1g _Risu0OduEfGTQ5VwT1mR1g" width="7" height="7" resizeKind="NSEW">
       <target xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="K%20Cup%20Coffee%20Maker.capella#f0785c42-386a-42c3-a129-dc98443695a1"/>
       <semanticElements xmi:type="org.polarsys.capella.core.data.oa:OperationalCapability" href="K%20Cup%20Coffee%20Maker.capella#f0785c42-386a-42c3-a129-dc98443695a1"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -1637,7 +1669,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/oa.odesign#//@ownedViewpoints[name='Operational%20Analysis']/@ownedRepresentations[name='Operational%20Capabilities%20Blank']/@defaultLayer/@edgeMappings[name='COC_EntityOperationalCapabilityInvolvement']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_hAlsEOdhEfGTQ5VwT1mR1g" name="UR-B-04" incomingEdges="_x4NwgOdhEfGTQ5VwT1mR1g">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_hAlsEOdhEfGTQ5VwT1mR1g" name="UR-B-04" incomingEdges="_x4NwgOdhEfGTQ5VwT1mR1g _Risu0OduEfGTQ5VwT1mR1g">
       <target xmi:type="Requirements:Requirement" href="K%20Cup%20Coffee%20Maker.capella#d3a7b156-986c-43e0-b9df-019d4ba8a963"/>
       <semanticElements xmi:type="Requirements:Requirement" href="K%20Cup%20Coffee%20Maker.capella#d3a7b156-986c-43e0-b9df-019d4ba8a963"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -1693,7 +1725,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.vp.requirements.design/description/CapellaRequirements.odesign#//@ownedViewpoints[name='CapellaRequirements_ID']/@ownedRepresentationExtensions[name='CapellaViewpoints']/@layers[name='ReqVP_Requirements_Layer']/@edgeMappings[name='ReqVP_OutgoingRelation']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_Z2c5QOdkEfGTQ5VwT1mR1g" name="UR-B-02" incomingEdges="_1FGXsOdrEfGTQ5VwT1mR1g">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_Z2c5QOdkEfGTQ5VwT1mR1g" name="UR-B-02" incomingEdges="_L6yEEOduEfGTQ5VwT1mR1g">
       <target xmi:type="Requirements:Requirement" href="K%20Cup%20Coffee%20Maker.capella#c9d15656-7110-46c0-91bc-c8120aaa9ac0"/>
       <semanticElements xmi:type="Requirements:Requirement" href="K%20Cup%20Coffee%20Maker.capella#c9d15656-7110-46c0-91bc-c8120aaa9ac0"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -1750,7 +1782,7 @@
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.vp.requirements.design/description/CapellaRequirements.odesign#//@ownedViewpoints[name='CapellaRequirements_ID']/@ownedRepresentationExtensions[name='CapellaViewpoints']/@layers[name='ReqVP_Requirements_Layer']/@containerMappings[name='ReqVP_Requirement']/@subNodeMappings[name='SAB_Requirement_Content']"/>
       </ownedElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_uuCr1OdnEfGTQ5VwT1mR1g" name="UR-G-02" incomingEdges="_IQicYOdtEfGTQ5VwT1mR1g">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_uuCr1OdnEfGTQ5VwT1mR1g" name="UR-G-02" incomingEdges="_IQicYOdtEfGTQ5VwT1mR1g _UgFF8OduEfGTQ5VwT1mR1g">
       <target xmi:type="Requirements:Requirement" href="K%20Cup%20Coffee%20Maker.capella#80b14453-5e2f-4483-8e93-ce73c6baaa3b"/>
       <semanticElements xmi:type="Requirements:Requirement" href="K%20Cup%20Coffee%20Maker.capella#80b14453-5e2f-4483-8e93-ce73c6baaa3b"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -1959,15 +1991,6 @@
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.vp.requirements.design/description/CapellaRequirements.odesign#//@ownedViewpoints[name='CapellaRequirements_ID']/@ownedRepresentationExtensions[name='CapellaViewpoints']/@layers[name='ReqVP_Requirements_Layer']/@containerMappings[name='ReqVP_Requirement']/@subNodeMappings[name='SAB_Requirement_Content']"/>
       </ownedElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_1FGXsOdrEfGTQ5VwT1mR1g" sourceNode="_qgw0EOdcEfGTQ5VwT1mR1g" targetNode="_Z2c5QOdkEfGTQ5VwT1mR1g">
-      <target xmi:type="CapellaRequirements:CapellaOutgoingRelation" href="K%20Cup%20Coffee%20Maker.capella#5d10330c-d4cf-4ab2-b5bb-22fbd4cdacba"/>
-      <semanticElements xmi:type="CapellaRequirements:CapellaOutgoingRelation" href="K%20Cup%20Coffee%20Maker.capella#5d10330c-d4cf-4ab2-b5bb-22fbd4cdacba"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_1FGXsedrEfGTQ5VwT1mR1g" lineStyle="dash" strokeColor="114,73,110">
-        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.vp.requirements.design/description/CapellaRequirements.odesign#//@ownedViewpoints[name='CapellaRequirements_ID']/@ownedRepresentationExtensions[name='CapellaViewpoints']/@layers[name='ReqVP_Requirements_Layer']/@edgeMappings[name='ReqVP_OutgoingRelation']/@style"/>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_1FGXsudrEfGTQ5VwT1mR1g" showIcon="false" labelColor="114,73,110"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.vp.requirements.design/description/CapellaRequirements.odesign#//@ownedViewpoints[name='CapellaRequirements_ID']/@ownedRepresentationExtensions[name='CapellaViewpoints']/@layers[name='ReqVP_Requirements_Layer']/@edgeMappings[name='ReqVP_OutgoingRelation']"/>
-    </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_yczqUOdsEfGTQ5VwT1mR1g" sourceNode="_qgw0EOdcEfGTQ5VwT1mR1g" targetNode="_5WHQAOdiEfGTQ5VwT1mR1g">
       <target xmi:type="CapellaRequirements:CapellaOutgoingRelation" href="K%20Cup%20Coffee%20Maker.capella#8ca5984b-7e95-437e-b772-845101cd077b"/>
       <semanticElements xmi:type="CapellaRequirements:CapellaOutgoingRelation" href="K%20Cup%20Coffee%20Maker.capella#8ca5984b-7e95-437e-b772-845101cd077b"/>
@@ -2091,6 +2114,33 @@
       <ownedStyle xmi:type="diagram:EdgeStyle" uid="_pZ1_kedtEfGTQ5VwT1mR1g" lineStyle="dash" strokeColor="114,73,110">
         <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.vp.requirements.design/description/CapellaRequirements.odesign#//@ownedViewpoints[name='CapellaRequirements_ID']/@ownedRepresentationExtensions[name='CapellaViewpoints']/@layers[name='ReqVP_Requirements_Layer']/@edgeMappings[name='ReqVP_OutgoingRelation']/@style"/>
         <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_pZ1_kudtEfGTQ5VwT1mR1g" showIcon="false" labelColor="114,73,110"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.vp.requirements.design/description/CapellaRequirements.odesign#//@ownedViewpoints[name='CapellaRequirements_ID']/@ownedRepresentationExtensions[name='CapellaViewpoints']/@layers[name='ReqVP_Requirements_Layer']/@edgeMappings[name='ReqVP_OutgoingRelation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_L6yEEOduEfGTQ5VwT1mR1g" sourceNode="_qgegMOdcEfGTQ5VwT1mR1g" targetNode="_Z2c5QOdkEfGTQ5VwT1mR1g">
+      <target xmi:type="CapellaRequirements:CapellaOutgoingRelation" href="K%20Cup%20Coffee%20Maker.capella#bb859874-b3e6-4fbe-a566-1c3b88898584"/>
+      <semanticElements xmi:type="CapellaRequirements:CapellaOutgoingRelation" href="K%20Cup%20Coffee%20Maker.capella#bb859874-b3e6-4fbe-a566-1c3b88898584"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_L6yEEeduEfGTQ5VwT1mR1g" lineStyle="dash" strokeColor="114,73,110">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.vp.requirements.design/description/CapellaRequirements.odesign#//@ownedViewpoints[name='CapellaRequirements_ID']/@ownedRepresentationExtensions[name='CapellaViewpoints']/@layers[name='ReqVP_Requirements_Layer']/@edgeMappings[name='ReqVP_OutgoingRelation']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_L6yEEuduEfGTQ5VwT1mR1g" showIcon="false" labelColor="114,73,110"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.vp.requirements.design/description/CapellaRequirements.odesign#//@ownedViewpoints[name='CapellaRequirements_ID']/@ownedRepresentationExtensions[name='CapellaViewpoints']/@layers[name='ReqVP_Requirements_Layer']/@edgeMappings[name='ReqVP_OutgoingRelation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_Risu0OduEfGTQ5VwT1mR1g" sourceNode="_qg1FgudcEfGTQ5VwT1mR1g" targetNode="_hAlsEOdhEfGTQ5VwT1mR1g">
+      <target xmi:type="CapellaRequirements:CapellaOutgoingRelation" href="K%20Cup%20Coffee%20Maker.capella#9e1c4f72-0243-49da-8f7e-5896fb6b774e"/>
+      <semanticElements xmi:type="CapellaRequirements:CapellaOutgoingRelation" href="K%20Cup%20Coffee%20Maker.capella#9e1c4f72-0243-49da-8f7e-5896fb6b774e"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_Risu0eduEfGTQ5VwT1mR1g" lineStyle="dash" strokeColor="114,73,110">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.vp.requirements.design/description/CapellaRequirements.odesign#//@ownedViewpoints[name='CapellaRequirements_ID']/@ownedRepresentationExtensions[name='CapellaViewpoints']/@layers[name='ReqVP_Requirements_Layer']/@edgeMappings[name='ReqVP_OutgoingRelation']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_Risu0uduEfGTQ5VwT1mR1g" showIcon="false" labelColor="114,73,110"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.vp.requirements.design/description/CapellaRequirements.odesign#//@ownedViewpoints[name='CapellaRequirements_ID']/@ownedRepresentationExtensions[name='CapellaViewpoints']/@layers[name='ReqVP_Requirements_Layer']/@edgeMappings[name='ReqVP_OutgoingRelation']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_UgFF8OduEfGTQ5VwT1mR1g" sourceNode="_qgypQOdcEfGTQ5VwT1mR1g" targetNode="_uuCr1OdnEfGTQ5VwT1mR1g">
+      <target xmi:type="CapellaRequirements:CapellaOutgoingRelation" href="K%20Cup%20Coffee%20Maker.capella#0037a12f-dc4f-4449-89ab-cede80b95964"/>
+      <semanticElements xmi:type="CapellaRequirements:CapellaOutgoingRelation" href="K%20Cup%20Coffee%20Maker.capella#0037a12f-dc4f-4449-89ab-cede80b95964"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_UgFtAOduEfGTQ5VwT1mR1g" lineStyle="dash" strokeColor="114,73,110">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.polarsys.capella.vp.requirements.design/description/CapellaRequirements.odesign#//@ownedViewpoints[name='CapellaRequirements_ID']/@ownedRepresentationExtensions[name='CapellaViewpoints']/@layers[name='ReqVP_Requirements_Layer']/@edgeMappings[name='ReqVP_OutgoingRelation']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_UgFtAeduEfGTQ5VwT1mR1g" showIcon="false" labelColor="114,73,110"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.polarsys.capella.vp.requirements.design/description/CapellaRequirements.odesign#//@ownedViewpoints[name='CapellaRequirements_ID']/@ownedRepresentationExtensions[name='CapellaViewpoints']/@layers[name='ReqVP_Requirements_Layer']/@edgeMappings[name='ReqVP_OutgoingRelation']"/>
     </ownedDiagramElements>

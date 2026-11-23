@@ -124,6 +124,9 @@
           <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
               id="c90cce26-1f23-4ad3-957f-525809f17d6d" ReqIFLongName="Satisfy" source="#b9407bbc-98fa-4479-bdf4-7d82b519bcd8"
               target="#d3a7b156-986c-43e0-b9df-019d4ba8a963"/>
+          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+              id="bb859874-b3e6-4fbe-a566-1c3b88898584" ReqIFLongName="Satisfy" source="#b9407bbc-98fa-4479-bdf4-7d82b519bcd8"
+              target="#c9d15656-7110-46c0-91bc-c8120aaa9ac0"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="0d19cdd8-de0b-46f4-9c9a-6a340d5b4acb" involved="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
@@ -135,13 +138,10 @@
             id="6c286e47-703d-42d3-a74b-13bf27484acb" name="Tailor the serving to the occasion"
             description="Need served: different cups for different moods and vessels (amount and strength). Drivers: convenience. Draft: NOTE-0002 revision 2, capability 2.">
           <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
-              id="5d10330c-d4cf-4ab2-b5bb-22fbd4cdacba" source="#6c286e47-703d-42d3-a74b-13bf27484acb"
-              target="#c9d15656-7110-46c0-91bc-c8120aaa9ac0"/>
-          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
-              id="8ca5984b-7e95-437e-b772-845101cd077b" source="#6c286e47-703d-42d3-a74b-13bf27484acb"
+              id="8ca5984b-7e95-437e-b772-845101cd077b" ReqIFLongName="Satisfy" source="#6c286e47-703d-42d3-a74b-13bf27484acb"
               target="#b9ec03d9-dc96-43dd-a29d-9980479f0ab3"/>
           <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
-              id="56d1bedb-008a-4afa-902f-2d31bbfb136a" source="#6c286e47-703d-42d3-a74b-13bf27484acb"
+              id="56d1bedb-008a-4afa-902f-2d31bbfb136a" ReqIFLongName="Satisfy" source="#6c286e47-703d-42d3-a74b-13bf27484acb"
               target="#ae623cc6-3380-4b94-a316-5fb3fd7ced9a"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="f4475630-6b65-41bf-978f-538897fce58e" involved="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
@@ -155,10 +155,10 @@
               id="63fb289e-5eaf-42de-828d-cce2c33073b4" ReqIFLongName="Satisfy" source="#74ad58bb-90ae-4017-99ae-f41510b8681b"
               target="#b9ec03d9-dc96-43dd-a29d-9980479f0ab3"/>
           <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
-              id="0e58080a-0d01-4550-adbf-3b5b38742db1" source="#74ad58bb-90ae-4017-99ae-f41510b8681b"
+              id="0e58080a-0d01-4550-adbf-3b5b38742db1" ReqIFLongName="Satisfy" source="#74ad58bb-90ae-4017-99ae-f41510b8681b"
               target="#80b14453-5e2f-4483-8e93-ce73c6baaa3b"/>
           <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
-              id="9452e840-688b-40e4-91ac-0b5c489cfb24" source="#74ad58bb-90ae-4017-99ae-f41510b8681b"
+              id="9452e840-688b-40e4-91ac-0b5c489cfb24" ReqIFLongName="Satisfy" source="#74ad58bb-90ae-4017-99ae-f41510b8681b"
               target="#f34532ba-3bb1-42ce-8e8d-f972852a1f66"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="2850c5fb-5392-4a2f-ba29-55086595f7c3" involved="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
@@ -169,11 +169,14 @@
             id="4dc6f3e5-d7bd-421f-91c0-dfe5b65aed10" name="Dispose of used coffee remains and packaging without mess"
             description="Need served: clean and quick clean-up after a cup. Drivers: lack of mess. Draft: NOTE-0002 revision 2, capability 4.">
           <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
-              id="c8f0de2a-e131-46e8-bc34-33c10068c54b" source="#4dc6f3e5-d7bd-421f-91c0-dfe5b65aed10"
+              id="c8f0de2a-e131-46e8-bc34-33c10068c54b" ReqIFLongName="Satisfy" source="#4dc6f3e5-d7bd-421f-91c0-dfe5b65aed10"
               target="#6a5c7cea-45b7-47f5-bcca-d522da78000d"/>
           <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
-              id="01a1f028-9563-42d4-adbb-060cb6693ec6" source="#4dc6f3e5-d7bd-421f-91c0-dfe5b65aed10"
+              id="01a1f028-9563-42d4-adbb-060cb6693ec6" ReqIFLongName="Satisfy" source="#4dc6f3e5-d7bd-421f-91c0-dfe5b65aed10"
               target="#365add41-25bc-470f-89fd-961eb59278f5"/>
+          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+              id="0037a12f-dc4f-4449-89ab-cede80b95964" ReqIFLongName="Satisfy" source="#4dc6f3e5-d7bd-421f-91c0-dfe5b65aed10"
+              target="#80b14453-5e2f-4483-8e93-ce73c6baaa3b"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="cf06f8eb-43a3-41b1-aa92-c6a331b0fc23" involved="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
@@ -193,10 +196,10 @@
             id="371f5f4d-b390-4b68-9a48-cb5a8bb5a6de" name="Make the equipment ready for use"
             description="Need served: go from box or storage to a first cup quickly (first use and after storage). Drivers: convenience. Draft: NOTE-0002 revision 2, capability 6.">
           <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
-              id="12668a6a-52f1-4d29-aedc-7d1d884f0a00" source="#371f5f4d-b390-4b68-9a48-cb5a8bb5a6de"
+              id="12668a6a-52f1-4d29-aedc-7d1d884f0a00" ReqIFLongName="Satisfy" source="#371f5f4d-b390-4b68-9a48-cb5a8bb5a6de"
               target="#728ed50f-4b50-4430-8c17-7351c43d74c8"/>
           <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
-              id="56eb2243-e282-4b37-a684-4cee3f96d440" source="#371f5f4d-b390-4b68-9a48-cb5a8bb5a6de"
+              id="56eb2243-e282-4b37-a684-4cee3f96d440" ReqIFLongName="Satisfy" source="#371f5f4d-b390-4b68-9a48-cb5a8bb5a6de"
               target="#88b90f2f-0f33-4841-beae-3f839583471a"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="a742f5f5-60f9-4587-b7b0-f42f3b4e6d4b" involved="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
@@ -209,7 +212,7 @@
             id="dbe3d6d0-1aec-4c2c-8dde-178c975cc9b0" name="Keep the equipment supplied with water"
             description="Need served: a ready water supply. Drivers: convenience. Draft: NOTE-0002 revision 2, capability 7.">
           <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
-              id="80f06499-4d01-44de-9320-e34abe86d555" source="#dbe3d6d0-1aec-4c2c-8dde-178c975cc9b0"
+              id="80f06499-4d01-44de-9320-e34abe86d555" ReqIFLongName="Satisfy" source="#dbe3d6d0-1aec-4c2c-8dde-178c975cc9b0"
               target="#88b90f2f-0f33-4841-beae-3f839583471a"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="bf1f73b1-494d-4f17-b066-4077a7c208f2" involved="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
@@ -222,8 +225,11 @@
             id="f0785c42-386a-42c3-a129-dc98443695a1" name="Return to readiness after idle"
             description="Need served: save energy without a long wait. Drivers: convenience. May move to System Analysis when tuning. Draft: NOTE-0002 revision 2, capability 8.">
           <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
-              id="3aabd26b-490f-443d-a2c6-62b5fee2af5d" source="#f0785c42-386a-42c3-a129-dc98443695a1"
+              id="3aabd26b-490f-443d-a2c6-62b5fee2af5d" ReqIFLongName="Satisfy" source="#f0785c42-386a-42c3-a129-dc98443695a1"
               target="#728ed50f-4b50-4430-8c17-7351c43d74c8"/>
+          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+              id="9e1c4f72-0243-49da-8f7e-5896fb6b774e" ReqIFLongName="Satisfy" source="#f0785c42-386a-42c3-a129-dc98443695a1"
+              target="#d3a7b156-986c-43e0-b9df-019d4ba8a963"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="4eddb7fa-918d-445a-97f7-2c395d98e5f7" involved="#65342e93-d242-4b83-8a78-cffa08d58b16"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
@@ -241,13 +247,13 @@
             id="4089362a-51a6-45ae-be7a-4c937d779134" name="Keep the equipment clean and performing"
             description="Need served: consistent cups over time with modest effort (routine cleaning and descaling). Drivers: convenience, lack of mess. May combine with capability 12 when tuning. Draft: NOTE-0002 revision 2, capability 10.">
           <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
-              id="0d27aa20-df60-436e-9461-4a311346d554" source="#4089362a-51a6-45ae-be7a-4c937d779134"
+              id="0d27aa20-df60-436e-9461-4a311346d554" ReqIFLongName="Satisfy" source="#4089362a-51a6-45ae-be7a-4c937d779134"
               target="#88b90f2f-0f33-4841-beae-3f839583471a"/>
           <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
-              id="3eeae4df-568e-4969-8609-b6d31e9256cd" source="#4089362a-51a6-45ae-be7a-4c937d779134"
+              id="3eeae4df-568e-4969-8609-b6d31e9256cd" ReqIFLongName="Satisfy" source="#4089362a-51a6-45ae-be7a-4c937d779134"
               target="#f048070e-743f-4b1b-b983-045c48403679"/>
           <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
-              id="1b1abb42-c997-43d2-8999-a52e482d1a25" source="#4089362a-51a6-45ae-be7a-4c937d779134"
+              id="1b1abb42-c997-43d2-8999-a52e482d1a25" ReqIFLongName="Satisfy" source="#4089362a-51a6-45ae-be7a-4c937d779134"
               target="#60f7a974-25a0-4efa-a1ee-9810ceca3aed"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="d2411395-b117-497a-a51f-ed49a1dee1e7" involved="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
@@ -268,7 +274,7 @@
             id="91dacebd-278e-4d6e-b810-21ef965ceeb4" name="Store, move, and obtain support or replacement parts"
             description="Need served: the whole ownership lifetime. Drivers: convenience. May combine with capability 10 when tuning. Draft: NOTE-0002 revision 2, capability 12.">
           <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
-              id="91c0c6e4-493d-4cdb-abd5-14d81fb4cb30" source="#91dacebd-278e-4d6e-b810-21ef965ceeb4"
+              id="91c0c6e4-493d-4cdb-abd5-14d81fb4cb30" ReqIFLongName="Satisfy" source="#91dacebd-278e-4d6e-b810-21ef965ceeb4"
               target="#60f7a974-25a0-4efa-a1ee-9810ceca3aed"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="3da493ca-fad3-4469-b119-76b101aa035b" involved="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
