@@ -45,81 +45,71 @@
           ReqIFLongName="Base User Requirements">
         <ownedRequirements xsi:type="Requirements:Requirement" id="d3a7b156-986c-43e0-b9df-019d4ba8a963"
             ReqIFDescription="Rationale: convenience depends on how long a cup takes. Capabilities (NOTE-0002): 1, 6, 8. Verification: Test (proposed category). Evidence: U; values TBD. Draft: NOTE-0003 revision 2."
-            ReqIFLongName="Coffee preparation cycle time" ReqIFName="UR-B-04" ReqIFText="The coffee preparation cycle time shall be defined and bounded: (a) from request to coffee available at serving temperature when the system is ready (TBD); (b) from a cold or idle start (TBD); (c) between consecutive servings (TBD)."
-            ReqIFPrefix="UR-B-04"/>
+            ReqIFLongName="Coffee preparation cycle time" ReqIFName="UR-B-04" ReqIFPrefix="UR-B-04"
+            ReqIFText="The coffee preparation cycle time shall be defined and bounded: (a) from request to coffee available at serving temperature when the system is ready (TBD); (b) from a cold or idle start (TBD); (c) between consecutive servings (TBD)."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="b9ec03d9-dc96-43dd-a29d-9980479f0ab3"
             ReqIFDescription="Rationale: different preferences in one household; a lighter option for later in the day. Capabilities (NOTE-0002): 2, 3. Verification: Demonstration (proposed category). Evidence: U. Draft: NOTE-0003 revision 2."
-            ReqIFLongName="Coffee varieties" ReqIFName="UR-B-01" ReqIFText="The system shall support at least three distinct coffee varieties: one preferred by a first drinker, one preferred by a second drinker, and one reduced-caffeine variety (for example half-caffeine) for daytime use."
-            ReqIFPrefix="UR-B-01"/>
+            ReqIFLongName="Coffee varieties" ReqIFName="UR-B-01" ReqIFPrefix="UR-B-01"
+            ReqIFText="The system shall support at least three distinct coffee varieties: one preferred by a first drinker, one preferred by a second drinker, and one reduced-caffeine variety (for example half-caffeine) for daytime use."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="c9d15656-7110-46c0-91bc-c8120aaa9ac0"
             ReqIFDescription="Rationale: coffee should be hot enough to enjoy and not hotter than a stated upper limit. Capabilities (NOTE-0002): 1. Verification: Test (proposed category). Evidence: U; values TBD. Draft: NOTE-0003 revision 2, DEC-0009."
             ReqIFLongName="Serving temperature as experienced by the drinker" ReqIFName="UR-B-02"
-            ReqIFText="The coffee shall be at a serving temperature, as experienced by the drinker at the point of delivery, of no less than Tmin and no more than Tmax (values TBD). The measurement shall be defined: vessel, probe position, and time after delivery starts."
-            ReqIFPrefix="UR-B-02"/>
+            ReqIFPrefix="UR-B-02" ReqIFText="The coffee shall be at a serving temperature, as experienced by the drinker at the point of delivery, of no less than Tmin and no more than Tmax (values TBD). The measurement shall be defined: vessel, probe position, and time after delivery starts."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="ae623cc6-3380-4b94-a316-5fb3fd7ced9a"
             ReqIFDescription="Rationale: strength can be compared across varieties and designs only if it is defined the same way. Capabilities (NOTE-0002): 2. Verification: Test and Analysis (proposed category). Evidence: U. Draft: NOTE-0003 revision 2, DEC-0009."
             ReqIFLongName="Coffee strength defined against baselines" ReqIFName="UR-B-03"
-            ReqIFText="Coffee strength shall be defined against two baselines: (a) a published reference (candidate: the brewing control chart) and (b) a project-defined named baseline. Every variety and strength setting shall be specified relative to both. The measure and the measurement method shall be recorded."
-            ReqIFPrefix="UR-B-03"/>
+            ReqIFPrefix="UR-B-03" ReqIFText="Coffee strength shall be defined against two baselines: (a) a published reference (candidate: the brewing control chart) and (b) a project-defined named baseline. Every variety and strength setting shall be specified relative to both. The measure and the measurement method shall be recorded."/>
       </ownedExtensions>
       <ownedExtensions xsi:type="CapellaRequirements:CapellaModule" id="99bd934c-7d7d-43e0-9a67-4699c3d7b83a"
           ReqIFLongName="Reach Requirements">
         <ownedRequirements xsi:type="Requirements:Requirement" id="6a5c7cea-45b7-47f5-bcca-d522da78000d"
             ReqIFDescription="Rationale: under coffee in, coffee out, anything discarded besides the used coffee is waste. Capabilities (NOTE-0002): 4. Verification: Test (proposed category). Evidence: U; value TBD. Draft: NOTE-0004 revision 2, DEC-0009."
-            ReqIFLongName="Waste beyond used coffee remains" ReqIFName="UR-G-01" ReqIFText="Waste beyond used coffee remains per serving (all discarded packaging and any other non-coffee discards) shall not exceed TBD grams. The minimum is zero, meaning only the used coffee remains are discarded."
-            ReqIFPrefix="UR-G-01"/>
+            ReqIFLongName="Waste beyond used coffee remains" ReqIFName="UR-G-01" ReqIFPrefix="UR-G-01"
+            ReqIFText="Waste beyond used coffee remains per serving (all discarded packaging and any other non-coffee discards) shall not exceed TBD grams. The minimum is zero, meaning only the used coffee remains are discarded."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="80b14453-5e2f-4483-8e93-ce73c6baaa3b"
             ReqIFDescription="Rationale: because packaging counts as waste, its end-of-life route decides whether it is diverted from landfill. Capabilities (NOTE-0002): 3, 4. Verification: Inspection and Analysis (proposed category); criterion to select. Evidence: U. Draft: NOTE-0004 revision 2."
             ReqIFLongName="Recyclable or compostable packaging" ReqIFName="UR-G-02"
-            ReqIFText="Packaging for coffee supplies shall be recyclable or compostable through widely available routes, for at least TBD percent of its mass, with clear marking for the drinker."
-            ReqIFPrefix="UR-G-02"/>
+            ReqIFPrefix="UR-G-02" ReqIFText="Packaging for coffee supplies shall be recyclable or compostable through widely available routes, for at least TBD percent of its mass, with clear marking for the drinker."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="365add41-25bc-470f-89fd-961eb59278f5"
             ReqIFDescription="Rationale: used grounds are organic material that can have a second use; the effort to separate them affects mess and diversion. Capabilities (NOTE-0002): 4. Verification: Demonstration (proposed category). Evidence: I from DEC-0005 and U. Draft: NOTE-0004 revision 2."
             ReqIFLongName="Used coffee remains divertible to beneficial use" ReqIFName="UR-G-03"
-            ReqIFText="Used coffee remains shall be divertible to a beneficial use (for example composting) with no more than TBD additional drinker steps and no loose mess."
-            ReqIFPrefix="UR-G-03"/>
+            ReqIFPrefix="UR-G-03" ReqIFText="Used coffee remains shall be divertible to a beneficial use (for example composting) with no more than TBD additional drinker steps and no loose mess."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="f34532ba-3bb1-42ce-8e8d-f972852a1f66"
             ReqIFDescription="Rationale: reducing packaging at the source reduces waste before recycling is needed; the ratio compares formats of different sizes. Capabilities (NOTE-0002): 3. Verification: Test (proposed category). Evidence: U; values TBD. Draft: NOTE-0004 revision 2, DEC-0009."
             ReqIFLongName="Packaging mass per serving and packaging-to-coffee ratio"
-            ReqIFName="UR-G-04" ReqIFText="Packaging mass per serving shall not exceed TBD grams, and the packaging-to-coffee mass ratio (grams of packaging per gram of coffee supplied) shall not exceed TBD."
-            ReqIFPrefix="UR-G-04"/>
+            ReqIFName="UR-G-04" ReqIFPrefix="UR-G-04" ReqIFText="Packaging mass per serving shall not exceed TBD grams, and the packaging-to-coffee mass ratio (grams of packaging per gram of coffee supplied) shall not exceed TBD."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="728ed50f-4b50-4430-8c17-7351c43d74c8"
             ReqIFDescription="Rationale: energy use scales with how often and how long the equipment is kept ready. Capabilities (NOTE-0002): 6, 8. Verification: Test (proposed category). Evidence: I. Draft: NOTE-0004 revision 2."
             ReqIFLongName="Energy per serving and idle energy per day" ReqIFName="UR-G-05"
-            ReqIFText="Electrical energy per serving from a ready state shall not exceed TBD watt-hours, and idle energy per day shall not exceed TBD watt-hours."
-            ReqIFPrefix="UR-G-05"/>
+            ReqIFPrefix="UR-G-05" ReqIFText="Electrical energy per serving from a ready state shall not exceed TBD watt-hours, and idle energy per day shall not exceed TBD watt-hours."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="88b90f2f-0f33-4841-beae-3f839583471a"
             ReqIFDescription="Rationale: maintenance and set-up can use water in addition to the beverage. Capabilities (NOTE-0002): 6, 7, 10. Verification: Test (proposed category). Evidence: I. Draft: NOTE-0004 revision 2."
             ReqIFLongName="Water use per serving beyond the beverage" ReqIFName="UR-G-06"
-            ReqIFText="Water use per serving beyond the beverage itself (rinse, priming, cleaning and descaling, averaged over a defined period) shall not exceed TBD millilitres."
-            ReqIFPrefix="UR-G-06"/>
+            ReqIFPrefix="UR-G-06" ReqIFText="Water use per serving beyond the beverage itself (rinse, priming, cleaning and descaling, averaged over a defined period) shall not exceed TBD millilitres."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="f048070e-743f-4b1b-b983-045c48403679"
             ReqIFDescription="Rationale: descaling agents and similar items add to by-products and drinker effort. Capabilities (NOTE-0002): 10. Verification: Analysis (proposed category). Evidence: I. Draft: NOTE-0004 revision 2."
             ReqIFLongName="Cleaning and maintenance consumables" ReqIFName="UR-G-07"
-            ReqIFText="Cleaning and maintenance consumables over a year of typical use shall not exceed TBD items or TBD grams."
-            ReqIFPrefix="UR-G-07"/>
+            ReqIFPrefix="UR-G-07" ReqIFText="Cleaning and maintenance consumables over a year of typical use shall not exceed TBD items or TBD grams."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="3db696ec-8102-463c-a714-5fdfcace19b2"
             ReqIFDescription="Rationale: one serving is a fair functional unit for comparing formats; the boundary matches DEC-0009. Capabilities (NOTE-0002): all. Verification: Analysis (proposed category); method to select. Evidence: A. Draft: NOTE-0004 revision 2, DEC-0009."
             ReqIFLongName="Use-phase and packaging impact per serving" ReqIFName="UR-G-08"
-            ReqIFText="The use-phase and packaging impact per serving (for example carbon footprint) shall be assessed with a recognized life cycle method over the boundary use and packaging only, and shall improve on a stated baseline by at least TBD percent. The baseline is coffee in, coffee out for waste, and a reference design or practice for other measures (to define)."
-            ReqIFPrefix="UR-G-08"/>
+            ReqIFPrefix="UR-G-08" ReqIFText="The use-phase and packaging impact per serving (for example carbon footprint) shall be assessed with a recognized life cycle method over the boundary use and packaging only, and shall improve on a stated baseline by at least TBD percent. The baseline is coffee in, coffee out for waste, and a reference design or practice for other measures (to define)."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="60f7a974-25a0-4efa-a1ee-9810ceca3aed"
             ReqIFDescription="Rationale: longer life and repair reduce the impact per serving during use. Capabilities (NOTE-0002): 10, 12. Verification: Test, Inspection and Analysis (proposed category). Evidence: A; open whether the equipment's own end-of-life is inside the boundary. Draft: NOTE-0004 revision 2."
             ReqIFLongName="Equipment service life, serviceability and end-of-life"
-            ReqIFName="UR-G-09" ReqIFText="The equipment shall be designed for a service life of at least TBD years, with user-replaceable or serviceable parts for the items listed as wear parts, and a recoverable end-of-life route."
-            ReqIFPrefix="UR-G-09"/>
+            ReqIFName="UR-G-09" ReqIFPrefix="UR-G-09" ReqIFText="The equipment shall be designed for a service life of at least TBD years, with user-replaceable or serviceable parts for the items listed as wear parts, and a recoverable end-of-life route."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="6ab84657-c61b-414c-b652-78ba6a97f022"
             ReqIFDescription="Stretches UR-B-03. Verification: Test (proposed category). Evidence: I. Draft: NOTE-0004 revision 2."
-            ReqIFLongName="Strength repeatability" ReqIFName="UR-G-10" ReqIFText="Strength repeatability: the variation in strength between servings of the same variety and setting shall not exceed TBD percent of the baseline measure."
-            ReqIFPrefix="UR-G-10"/>
+            ReqIFLongName="Strength repeatability" ReqIFName="UR-G-10" ReqIFPrefix="UR-G-10"
+            ReqIFText="Strength repeatability: the variation in strength between servings of the same variety and setting shall not exceed TBD percent of the baseline measure."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="b5be317d-2622-4779-ad3c-c9e1bb459b89"
             ReqIFDescription="Stretches UR-B-04. Verification: Test (proposed category). Evidence: A. Draft: NOTE-0004 revision 2."
-            ReqIFLongName="Cycle time reach" ReqIFName="UR-G-11" ReqIFText="Cycle time reach: the ready-state cycle time (UR-B-04 a) shall be at or below TBD seconds."
-            ReqIFPrefix="UR-G-11"/>
+            ReqIFLongName="Cycle time reach" ReqIFName="UR-G-11" ReqIFPrefix="UR-G-11"
+            ReqIFText="Cycle time reach: the ready-state cycle time (UR-B-04 a) shall be at or below TBD seconds."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="ff85fdf8-2640-4cb6-bae0-feeabda496f5"
             ReqIFDescription="Stretches UR-B-01. Verification: Demonstration (proposed category). Evidence: A. Draft: NOTE-0004 revision 2."
-            ReqIFLongName="Variety reach" ReqIFName="UR-G-12" ReqIFText="Variety reach: the system shall support at least TBD varieties without added effort for the drinker."
-            ReqIFPrefix="UR-G-12"/>
+            ReqIFLongName="Variety reach" ReqIFName="UR-G-12" ReqIFPrefix="UR-G-12"
+            ReqIFText="Variety reach: the system shall support at least TBD varieties without added effort for the drinker."/>
       </ownedExtensions>
       <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalActivityPkg"
           id="c1828807-9016-4c85-9c6c-7b1429f20cd6" name="Operational Activities">
@@ -144,6 +134,15 @@
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="6c286e47-703d-42d3-a74b-13bf27484acb" name="Tailor the serving to the occasion"
             description="Need served: different cups for different moods and vessels (amount and strength). Drivers: convenience. Draft: NOTE-0002 revision 2, capability 2.">
+          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+              id="5d10330c-d4cf-4ab2-b5bb-22fbd4cdacba" source="#6c286e47-703d-42d3-a74b-13bf27484acb"
+              target="#c9d15656-7110-46c0-91bc-c8120aaa9ac0"/>
+          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+              id="8ca5984b-7e95-437e-b772-845101cd077b" source="#6c286e47-703d-42d3-a74b-13bf27484acb"
+              target="#b9ec03d9-dc96-43dd-a29d-9980479f0ab3"/>
+          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+              id="56d1bedb-008a-4afa-902f-2d31bbfb136a" source="#6c286e47-703d-42d3-a74b-13bf27484acb"
+              target="#ae623cc6-3380-4b94-a316-5fb3fd7ced9a"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="f4475630-6b65-41bf-978f-538897fce58e" involved="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
@@ -155,6 +154,12 @@
           <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
               id="63fb289e-5eaf-42de-828d-cce2c33073b4" ReqIFLongName="Satisfy" source="#74ad58bb-90ae-4017-99ae-f41510b8681b"
               target="#b9ec03d9-dc96-43dd-a29d-9980479f0ab3"/>
+          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+              id="0e58080a-0d01-4550-adbf-3b5b38742db1" source="#74ad58bb-90ae-4017-99ae-f41510b8681b"
+              target="#80b14453-5e2f-4483-8e93-ce73c6baaa3b"/>
+          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+              id="9452e840-688b-40e4-91ac-0b5c489cfb24" source="#74ad58bb-90ae-4017-99ae-f41510b8681b"
+              target="#f34532ba-3bb1-42ce-8e8d-f972852a1f66"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="2850c5fb-5392-4a2f-ba29-55086595f7c3" involved="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
@@ -163,6 +168,12 @@
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="4dc6f3e5-d7bd-421f-91c0-dfe5b65aed10" name="Dispose of used coffee remains and packaging without mess"
             description="Need served: clean and quick clean-up after a cup. Drivers: lack of mess. Draft: NOTE-0002 revision 2, capability 4.">
+          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+              id="c8f0de2a-e131-46e8-bc34-33c10068c54b" source="#4dc6f3e5-d7bd-421f-91c0-dfe5b65aed10"
+              target="#6a5c7cea-45b7-47f5-bcca-d522da78000d"/>
+          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+              id="01a1f028-9563-42d4-adbb-060cb6693ec6" source="#4dc6f3e5-d7bd-421f-91c0-dfe5b65aed10"
+              target="#365add41-25bc-470f-89fd-961eb59278f5"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="cf06f8eb-43a3-41b1-aa92-c6a331b0fc23" involved="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
@@ -181,6 +192,12 @@
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="371f5f4d-b390-4b68-9a48-cb5a8bb5a6de" name="Make the equipment ready for use"
             description="Need served: go from box or storage to a first cup quickly (first use and after storage). Drivers: convenience. Draft: NOTE-0002 revision 2, capability 6.">
+          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+              id="12668a6a-52f1-4d29-aedc-7d1d884f0a00" source="#371f5f4d-b390-4b68-9a48-cb5a8bb5a6de"
+              target="#728ed50f-4b50-4430-8c17-7351c43d74c8"/>
+          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+              id="56eb2243-e282-4b37-a684-4cee3f96d440" source="#371f5f4d-b390-4b68-9a48-cb5a8bb5a6de"
+              target="#88b90f2f-0f33-4841-beae-3f839583471a"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="a742f5f5-60f9-4587-b7b0-f42f3b4e6d4b" involved="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
@@ -191,6 +208,9 @@
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="dbe3d6d0-1aec-4c2c-8dde-178c975cc9b0" name="Keep the equipment supplied with water"
             description="Need served: a ready water supply. Drivers: convenience. Draft: NOTE-0002 revision 2, capability 7.">
+          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+              id="80f06499-4d01-44de-9320-e34abe86d555" source="#dbe3d6d0-1aec-4c2c-8dde-178c975cc9b0"
+              target="#88b90f2f-0f33-4841-beae-3f839583471a"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="bf1f73b1-494d-4f17-b066-4077a7c208f2" involved="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
@@ -201,6 +221,9 @@
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="f0785c42-386a-42c3-a129-dc98443695a1" name="Return to readiness after idle"
             description="Need served: save energy without a long wait. Drivers: convenience. May move to System Analysis when tuning. Draft: NOTE-0002 revision 2, capability 8.">
+          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+              id="3aabd26b-490f-443d-a2c6-62b5fee2af5d" source="#f0785c42-386a-42c3-a129-dc98443695a1"
+              target="#728ed50f-4b50-4430-8c17-7351c43d74c8"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="4eddb7fa-918d-445a-97f7-2c395d98e5f7" involved="#65342e93-d242-4b83-8a78-cffa08d58b16"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
@@ -217,6 +240,15 @@
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="4089362a-51a6-45ae-be7a-4c937d779134" name="Keep the equipment clean and performing"
             description="Need served: consistent cups over time with modest effort (routine cleaning and descaling). Drivers: convenience, lack of mess. May combine with capability 12 when tuning. Draft: NOTE-0002 revision 2, capability 10.">
+          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+              id="0d27aa20-df60-436e-9461-4a311346d554" source="#4089362a-51a6-45ae-be7a-4c937d779134"
+              target="#88b90f2f-0f33-4841-beae-3f839583471a"/>
+          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+              id="3eeae4df-568e-4969-8609-b6d31e9256cd" source="#4089362a-51a6-45ae-be7a-4c937d779134"
+              target="#f048070e-743f-4b1b-b983-045c48403679"/>
+          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+              id="1b1abb42-c997-43d2-8999-a52e482d1a25" source="#4089362a-51a6-45ae-be7a-4c937d779134"
+              target="#60f7a974-25a0-4efa-a1ee-9810ceca3aed"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="d2411395-b117-497a-a51f-ed49a1dee1e7" involved="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
@@ -235,6 +267,9 @@
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="91dacebd-278e-4d6e-b810-21ef965ceeb4" name="Store, move, and obtain support or replacement parts"
             description="Need served: the whole ownership lifetime. Drivers: convenience. May combine with capability 10 when tuning. Draft: NOTE-0002 revision 2, capability 12.">
+          <ownedExtensions xsi:type="CapellaRequirements:CapellaOutgoingRelation"
+              id="91c0c6e4-493d-4cdb-abd5-14d81fb4cb30" source="#91dacebd-278e-4d6e-b810-21ef965ceeb4"
+              target="#60f7a974-25a0-4efa-a1ee-9810ceca3aed"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="3da493ca-fad3-4469-b119-76b101aa035b" involved="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
