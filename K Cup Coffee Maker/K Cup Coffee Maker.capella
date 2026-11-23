@@ -223,14 +223,24 @@
             name="K-Cup Supply Chain" abstractType="#9a67ade9-4d1a-4689-815d-e257c98195eb"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="5fc83b7a-b00d-4e6e-9398-68762627937e"
             name="K Cup Machine Support" abstractType="#95643ac7-ff7b-46e2-95a9-98f8518311de"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="63a1e7ce-43ed-4519-91ec-fef736a46638"
+            name="Waste Handling" abstractType="#cf58782e-8589-414a-b68b-c3f0acbd7196"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="ab2fbbe3-830d-4109-beea-b64ace7fa48c"
+            name="Utilities Supply" abstractType="#838b5f6c-a58b-41da-8180-182fd488bc2f"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="689a685b-ebfd-4b53-bc72-e55c5727210d"
-            name="Coffee Machine User" actor="true" human="true"/>
+            name="Coffee Drinker" actor="true" human="true" description="External actor. The person who wants a cup of coffee and carries out the everyday steps: choosing a serving, loading supplies, adding water, collecting the coffee, handling what is discarded, and routine cleaning."/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="65342e93-d242-4b83-8a78-cffa08d58b16"
-            name="Coffer Machine"/>
+            name="Coffee-Making Equipment" description="The equipment that turns supplies and water into a served cup of coffee on request, and stays ready between uses. Modeled as a generic entity; later phases describe the specific design."/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="9a67ade9-4d1a-4689-815d-e257c98195eb"
-            name="K-Cup Supply Chain"/>
+            name="Coffee Supply Chain" description="Producers, packagers, retailers and delivery services that provide ready-to-use coffee supplies to the drinker. For this model the relevant outputs are the supplies and their packaging; growing, roasting and shipping the coffee itself are outside the boundary (DEC-0009)."/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="838b5f6c-a58b-41da-8180-182fd488bc2f"
+            description="Provides the water and the electrical power that the equipment uses. One combined entity for now; water and power can be split later if the exchanges need it."
+            name="Utilities Supply"/>
+        <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="cf58782e-8589-414a-b68b-c3f0acbd7196"
+            description="The household and municipal routes that receive what the drinker discards: used coffee remains and packaging. This is where recycling, composting or disposal happens, and where the waste goals (coffee in, coffee out) are measured."
+            name="Waste Handling"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="95643ac7-ff7b-46e2-95a9-98f8518311de"
-            name="K Cup Machine Support"/>
+            name="Equipment Support" description="The manufacturer&amp;#x27;s support services that help the drinker with the equipment: guidance, replacement parts and warranty service."/>
       </ownedEntityPkg>
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
