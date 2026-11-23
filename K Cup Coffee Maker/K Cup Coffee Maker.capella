@@ -3,7 +3,8 @@
 <!--Capella_Version_6.1.0-->
 <org.polarsys.capella.core.data.capellamodeller:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CapellaRequirements="http://www.polarsys.org/capella/requirements"
-    xmlns:libraries="http://www.polarsys.org/capella/common/libraries/6.0.0" xmlns:org.polarsys.capella.core.data.capellacommon="http://www.polarsys.org/capella/core/common/6.0.0"
+    xmlns:Requirements="http://www.polarsys.org/kitalpha/requirements" xmlns:libraries="http://www.polarsys.org/capella/common/libraries/6.0.0"
+    xmlns:org.polarsys.capella.core.data.capellacommon="http://www.polarsys.org/capella/core/common/6.0.0"
     xmlns:org.polarsys.capella.core.data.capellacore="http://www.polarsys.org/capella/core/core/6.0.0"
     xmlns:org.polarsys.capella.core.data.capellamodeller="http://www.polarsys.org/capella/core/modeller/6.0.0"
     xmlns:org.polarsys.capella.core.data.cs="http://www.polarsys.org/capella/core/cs/6.0.0"
@@ -41,7 +42,10 @@
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.oa:OperationalAnalysis"
         id="898a3dbf-7c77-4eb2-908f-203adc43f647" name="Operational Analysis">
       <ownedExtensions xsi:type="CapellaRequirements:CapellaModule" id="5f1d7c89-97d2-4721-9e9a-073746fbacd9"
-          ReqIFLongName="Base User Requirements"/>
+          ReqIFLongName="Base User Requirements">
+        <ownedRequirements xsi:type="Requirements:Requirement" id="d3a7b156-986c-43e0-b9df-019d4ba8a963"
+            ReqIFLongName="Coffee preparation cycle time" ReqIFName="UR-B-04" ReqIFText="The coffee preparation cycle time shall be defined and bounded: (a) from request to coffee available at serving temperature when the system is ready (TBD); (b) from a cold or idle start (TBD); (c) between consecutive servings (TBD)."/>
+      </ownedExtensions>
       <ownedExtensions xsi:type="CapellaRequirements:CapellaModule" id="99bd934c-7d7d-43e0-9a67-4699c3d7b83a"
           ReqIFLongName="Reach Requirements"/>
       <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalActivityPkg"
