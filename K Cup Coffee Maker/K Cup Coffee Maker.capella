@@ -111,7 +111,44 @@
             id="e390c4f0-b08f-4c51-92f6-1a0af895226e" name="Root Operational Activity"/>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg"
-          id="e98f0aa8-6701-4804-adc3-d30d80ce6bb3" name="Operational Capabilities"/>
+          id="e98f0aa8-6701-4804-adc3-d30d80ce6bb3" name="Operational Capabilities">
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="b9407bbc-98fa-4479-bdf4-7d82b519bcd8" description="Need served: a cup when wanted, without preparing more than needed. Drivers: convenience. Draft: NOTE-0002 revision 2, capability 1."
+            name="Prepare a serving of hot coffee on demand"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="6c286e47-703d-42d3-a74b-13bf27484acb" description="Need served: different cups for different moods and vessels (amount and strength). Drivers: convenience. Draft: NOTE-0002 revision 2, capability 2."
+            name="Tailor the serving to the occasion"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="74ad58bb-90ae-4017-99ae-f41510b8681b" description="Need served: coffee without measuring or handling loose ingredients. Drivers: convenience, lack of mess. Draft: NOTE-0002 revision 2, capability 3."
+            name="Obtain ready-to-use coffee supplies in variety"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="4dc6f3e5-d7bd-421f-91c0-dfe5b65aed10" description="Need served: clean and quick clean-up after a cup. Drivers: lack of mess. Draft: NOTE-0002 revision 2, capability 4."
+            name="Dispose of used coffee remains and packaging without mess"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="966c2c17-8f77-460c-b588-4954e59b6724" description="Need served: a clean counter, any vessel. Drivers: lack of mess. Draft: NOTE-0002 revision 2, capability 5."
+            name="Contain and clear spills and drips"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="371f5f4d-b390-4b68-9a48-cb5a8bb5a6de" description="Need served: go from box or storage to a first cup quickly (first use and after storage). Drivers: convenience. Draft: NOTE-0002 revision 2, capability 6."
+            name="Make the equipment ready for use"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="dbe3d6d0-1aec-4c2c-8dde-178c975cc9b0" description="Need served: a ready water supply. Drivers: convenience. Draft: NOTE-0002 revision 2, capability 7."
+            name="Keep the equipment supplied with water"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="f0785c42-386a-42c3-a129-dc98443695a1" description="Need served: save energy without a long wait. Drivers: convenience. May move to System Analysis when tuning. Draft: NOTE-0002 revision 2, capability 8."
+            name="Return to readiness after idle"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="61cc6b71-b307-43f0-9b06-d58b33fbc086" description="Need served: same simple routine at altitude and with different vessels. Drivers: convenience. May move to System Analysis when tuning. Draft: NOTE-0002 revision 2, capability 9."
+            name="Operate across a range of conditions"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="4089362a-51a6-45ae-be7a-4c937d779134" description="Need served: consistent cups over time with modest effort (routine cleaning and descaling). Drivers: convenience, lack of mess. May combine with capability 12 when tuning. Draft: NOTE-0002 revision 2, capability 10."
+            name="Keep the equipment clean and performing"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="cecc4011-9128-4234-a027-4c8e71121ec7" description="Need served: safe everyday use. Drivers: none. May become a cross-cutting constraint when tuning. Draft: NOTE-0002 revision 2, capability 11."
+            name="Operate safely around heat, electricity and sharp parts"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="91dacebd-278e-4d6e-b810-21ef965ceeb4" description="Need served: the whole ownership lifetime. Drivers: convenience. May combine with capability 10 when tuning. Draft: NOTE-0002 revision 2, capability 12."
+            name="Store, move, and obtain support or replacement parts"/>
+      </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
           id="b07f6c41-d427-4725-9b36-7fef7d62ea7b" name="Interfaces"/>
       <ownedDataPkg xsi:type="org.polarsys.capella.core.data.information:DataPkg"
