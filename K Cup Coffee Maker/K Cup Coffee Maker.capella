@@ -45,9 +45,65 @@
           ReqIFLongName="Base User Requirements">
         <ownedRequirements xsi:type="Requirements:Requirement" id="d3a7b156-986c-43e0-b9df-019d4ba8a963"
             ReqIFLongName="Coffee preparation cycle time" ReqIFName="UR-B-04" ReqIFText="The coffee preparation cycle time shall be defined and bounded: (a) from request to coffee available at serving temperature when the system is ready (TBD); (b) from a cold or idle start (TBD); (c) between consecutive servings (TBD)."/>
+        <ownedRequirements xsi:type="Requirements:Requirement" id="b9ec03d9-dc96-43dd-a29d-9980479f0ab3"
+            ReqIFDescription="Rationale: different preferences in one household; a lighter option for later in the day. Capabilities (NOTE-0002): 2, 3. Verification: Demonstration (proposed category). Evidence: U. Draft: NOTE-0003 revision 2."
+            ReqIFLongName="Coffee varieties" ReqIFName="UR-B-01" ReqIFText="The system shall support at least three distinct coffee varieties: one preferred by a first drinker, one preferred by a second drinker, and one reduced-caffeine variety (for example half-caffeine) for daytime use."/>
+        <ownedRequirements xsi:type="Requirements:Requirement" id="c9d15656-7110-46c0-91bc-c8120aaa9ac0"
+            ReqIFDescription="Rationale: coffee should be hot enough to enjoy and not hotter than a stated upper limit. Capabilities (NOTE-0002): 1. Verification: Test (proposed category). Evidence: U; values TBD. Draft: NOTE-0003 revision 2, DEC-0009."
+            ReqIFLongName="Serving temperature as experienced by the drinker" ReqIFName="UR-B-02"
+            ReqIFText="The coffee shall be at a serving temperature, as experienced by the drinker at the point of delivery, of no less than Tmin and no more than Tmax (values TBD). The measurement shall be defined: vessel, probe position, and time after delivery starts."/>
+        <ownedRequirements xsi:type="Requirements:Requirement" id="ae623cc6-3380-4b94-a316-5fb3fd7ced9a"
+            ReqIFDescription="Rationale: strength can be compared across varieties and designs only if it is defined the same way. Capabilities (NOTE-0002): 2. Verification: Test and Analysis (proposed category). Evidence: U. Draft: NOTE-0003 revision 2, DEC-0009."
+            ReqIFLongName="Coffee strength defined against baselines" ReqIFName="UR-B-03"
+            ReqIFText="Coffee strength shall be defined against two baselines: (a) a published reference (candidate: the brewing control chart) and (b) a project-defined named baseline. Every variety and strength setting shall be specified relative to both. The measure and the measurement method shall be recorded."/>
       </ownedExtensions>
       <ownedExtensions xsi:type="CapellaRequirements:CapellaModule" id="99bd934c-7d7d-43e0-9a67-4699c3d7b83a"
-          ReqIFLongName="Reach Requirements"/>
+          ReqIFLongName="Reach Requirements">
+        <ownedRequirements xsi:type="Requirements:Requirement" id="6a5c7cea-45b7-47f5-bcca-d522da78000d"
+            ReqIFDescription="Rationale: under coffee in, coffee out, anything discarded besides the used coffee is waste. Capabilities (NOTE-0002): 4. Verification: Test (proposed category). Evidence: U; value TBD. Draft: NOTE-0004 revision 2, DEC-0009."
+            ReqIFLongName="Waste beyond used coffee remains" ReqIFName="UR-G-01" ReqIFText="Waste beyond used coffee remains per serving (all discarded packaging and any other non-coffee discards) shall not exceed TBD grams. The minimum is zero, meaning only the used coffee remains are discarded."/>
+        <ownedRequirements xsi:type="Requirements:Requirement" id="80b14453-5e2f-4483-8e93-ce73c6baaa3b"
+            ReqIFDescription="Rationale: because packaging counts as waste, its end-of-life route decides whether it is diverted from landfill. Capabilities (NOTE-0002): 3, 4. Verification: Inspection and Analysis (proposed category); criterion to select. Evidence: U. Draft: NOTE-0004 revision 2."
+            ReqIFLongName="Recyclable or compostable packaging" ReqIFName="UR-G-02"
+            ReqIFText="Packaging for coffee supplies shall be recyclable or compostable through widely available routes, for at least TBD percent of its mass, with clear marking for the drinker."/>
+        <ownedRequirements xsi:type="Requirements:Requirement" id="365add41-25bc-470f-89fd-961eb59278f5"
+            ReqIFDescription="Rationale: used grounds are organic material that can have a second use; the effort to separate them affects mess and diversion. Capabilities (NOTE-0002): 4. Verification: Demonstration (proposed category). Evidence: I from DEC-0005 and U. Draft: NOTE-0004 revision 2."
+            ReqIFLongName="Used coffee remains divertible to beneficial use" ReqIFName="UR-G-03"
+            ReqIFText="Used coffee remains shall be divertible to a beneficial use (for example composting) with no more than TBD additional drinker steps and no loose mess."/>
+        <ownedRequirements xsi:type="Requirements:Requirement" id="f34532ba-3bb1-42ce-8e8d-f972852a1f66"
+            ReqIFDescription="Rationale: reducing packaging at the source reduces waste before recycling is needed; the ratio compares formats of different sizes. Capabilities (NOTE-0002): 3. Verification: Test (proposed category). Evidence: U; values TBD. Draft: NOTE-0004 revision 2, DEC-0009."
+            ReqIFLongName="Packaging mass per serving and packaging-to-coffee ratio"
+            ReqIFName="UR-G-04" ReqIFText="Packaging mass per serving shall not exceed TBD grams, and the packaging-to-coffee mass ratio (grams of packaging per gram of coffee supplied) shall not exceed TBD."/>
+        <ownedRequirements xsi:type="Requirements:Requirement" id="728ed50f-4b50-4430-8c17-7351c43d74c8"
+            ReqIFDescription="Rationale: energy use scales with how often and how long the equipment is kept ready. Capabilities (NOTE-0002): 6, 8. Verification: Test (proposed category). Evidence: I. Draft: NOTE-0004 revision 2."
+            ReqIFLongName="Energy per serving and idle energy per day" ReqIFName="UR-G-05"
+            ReqIFText="Electrical energy per serving from a ready state shall not exceed TBD watt-hours, and idle energy per day shall not exceed TBD watt-hours."/>
+        <ownedRequirements xsi:type="Requirements:Requirement" id="88b90f2f-0f33-4841-beae-3f839583471a"
+            ReqIFDescription="Rationale: maintenance and set-up can use water in addition to the beverage. Capabilities (NOTE-0002): 6, 7, 10. Verification: Test (proposed category). Evidence: I. Draft: NOTE-0004 revision 2."
+            ReqIFLongName="Water use per serving beyond the beverage" ReqIFName="UR-G-06"
+            ReqIFText="Water use per serving beyond the beverage itself (rinse, priming, cleaning and descaling, averaged over a defined period) shall not exceed TBD millilitres."/>
+        <ownedRequirements xsi:type="Requirements:Requirement" id="f048070e-743f-4b1b-b983-045c48403679"
+            ReqIFDescription="Rationale: descaling agents and similar items add to by-products and drinker effort. Capabilities (NOTE-0002): 10. Verification: Analysis (proposed category). Evidence: I. Draft: NOTE-0004 revision 2."
+            ReqIFLongName="Cleaning and maintenance consumables" ReqIFName="UR-G-07"
+            ReqIFText="Cleaning and maintenance consumables over a year of typical use shall not exceed TBD items or TBD grams."/>
+        <ownedRequirements xsi:type="Requirements:Requirement" id="3db696ec-8102-463c-a714-5fdfcace19b2"
+            ReqIFDescription="Rationale: one serving is a fair functional unit for comparing formats; the boundary matches DEC-0009. Capabilities (NOTE-0002): all. Verification: Analysis (proposed category); method to select. Evidence: A. Draft: NOTE-0004 revision 2, DEC-0009."
+            ReqIFLongName="Use-phase and packaging impact per serving" ReqIFName="UR-G-08"
+            ReqIFText="The use-phase and packaging impact per serving (for example carbon footprint) shall be assessed with a recognized life cycle method over the boundary use and packaging only, and shall improve on a stated baseline by at least TBD percent. The baseline is coffee in, coffee out for waste, and a reference design or practice for other measures (to define)."/>
+        <ownedRequirements xsi:type="Requirements:Requirement" id="60f7a974-25a0-4efa-a1ee-9810ceca3aed"
+            ReqIFDescription="Rationale: longer life and repair reduce the impact per serving during use. Capabilities (NOTE-0002): 10, 12. Verification: Test, Inspection and Analysis (proposed category). Evidence: A; open whether the equipment's own end-of-life is inside the boundary. Draft: NOTE-0004 revision 2."
+            ReqIFLongName="Equipment service life, serviceability and end-of-life"
+            ReqIFName="UR-G-09" ReqIFText="The equipment shall be designed for a service life of at least TBD years, with user-replaceable or serviceable parts for the items listed as wear parts, and a recoverable end-of-life route."/>
+        <ownedRequirements xsi:type="Requirements:Requirement" id="6ab84657-c61b-414c-b652-78ba6a97f022"
+            ReqIFDescription="Stretches UR-B-03. Verification: Test (proposed category). Evidence: I. Draft: NOTE-0004 revision 2."
+            ReqIFLongName="Strength repeatability" ReqIFName="UR-G-10" ReqIFText="Strength repeatability: the variation in strength between servings of the same variety and setting shall not exceed TBD percent of the baseline measure."/>
+        <ownedRequirements xsi:type="Requirements:Requirement" id="b5be317d-2622-4779-ad3c-c9e1bb459b89"
+            ReqIFDescription="Stretches UR-B-04. Verification: Test (proposed category). Evidence: A. Draft: NOTE-0004 revision 2."
+            ReqIFLongName="Cycle time reach" ReqIFName="UR-G-11" ReqIFText="Cycle time reach: the ready-state cycle time (UR-B-04 a) shall be at or below TBD seconds."/>
+        <ownedRequirements xsi:type="Requirements:Requirement" id="ff85fdf8-2640-4cb6-bae0-feeabda496f5"
+            ReqIFDescription="Stretches UR-B-01. Verification: Demonstration (proposed category). Evidence: A. Draft: NOTE-0004 revision 2."
+            ReqIFLongName="Variety reach" ReqIFName="UR-G-12" ReqIFText="Variety reach: the system shall support at least TBD varieties without added effort for the drinker."/>
+      </ownedExtensions>
       <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalActivityPkg"
           id="c1828807-9016-4c85-9c6c-7b1429f20cd6" name="Operational Activities">
         <ownedOperationalActivities xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
