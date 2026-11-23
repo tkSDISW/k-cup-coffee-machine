@@ -2,8 +2,8 @@
 
 <!--Capella_Version_6.1.0-->
 <org.polarsys.capella.core.data.capellamodeller:Project xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:libraries="http://www.polarsys.org/capella/common/libraries/6.0.0"
-    xmlns:org.polarsys.capella.core.data.capellacommon="http://www.polarsys.org/capella/core/common/6.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CapellaRequirements="http://www.polarsys.org/capella/requirements"
+    xmlns:libraries="http://www.polarsys.org/capella/common/libraries/6.0.0" xmlns:org.polarsys.capella.core.data.capellacommon="http://www.polarsys.org/capella/core/common/6.0.0"
     xmlns:org.polarsys.capella.core.data.capellacore="http://www.polarsys.org/capella/core/core/6.0.0"
     xmlns:org.polarsys.capella.core.data.capellamodeller="http://www.polarsys.org/capella/core/modeller/6.0.0"
     xmlns:org.polarsys.capella.core.data.cs="http://www.polarsys.org/capella/core/cs/6.0.0"
@@ -40,6 +40,10 @@
       id="d2e91307-f7e0-438d-b378-c003c0e47cd4" name="K Cup Coffee Maker">
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.oa:OperationalAnalysis"
         id="898a3dbf-7c77-4eb2-908f-203adc43f647" name="Operational Analysis">
+      <ownedExtensions xsi:type="CapellaRequirements:CapellaModule" id="5f1d7c89-97d2-4721-9e9a-073746fbacd9"
+          ReqIFLongName="Base User Requirements"/>
+      <ownedExtensions xsi:type="CapellaRequirements:CapellaModule" id="99bd934c-7d7d-43e0-9a67-4699c3d7b83a"
+          ReqIFLongName="Reach Requirements"/>
       <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalActivityPkg"
           id="c1828807-9016-4c85-9c6c-7b1429f20cd6" name="Operational Activities">
         <ownedOperationalActivities xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
