@@ -119,6 +119,8 @@
               id="0d19cdd8-de0b-46f4-9c9a-6a340d5b4acb" involved="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="aa7a5046-d5b4-4cc4-984e-5a9599deb5d8" involved="#65342e93-d242-4b83-8a78-cffa08d58b16"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="84872703-e849-46a2-96aa-643517f34474" involved="#838b5f6c-a58b-41da-8180-182fd488bc2f"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="6c286e47-703d-42d3-a74b-13bf27484acb" name="Tailor the serving to the occasion"
@@ -197,6 +199,8 @@
               id="d2411395-b117-497a-a51f-ed49a1dee1e7" involved="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="d7da839b-248a-4c60-bae2-2b9e01433976" involved="#65342e93-d242-4b83-8a78-cffa08d58b16"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="c51c34cc-d733-4c5e-bf11-fb4c28c71889" involved="#838b5f6c-a58b-41da-8180-182fd488bc2f"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="cecc4011-9128-4234-a027-4c8e71121ec7" name="Operate safely around heat, electricity and sharp parts"
