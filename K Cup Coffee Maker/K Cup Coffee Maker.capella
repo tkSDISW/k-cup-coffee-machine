@@ -48,7 +48,10 @@
             ReqIFLongName="Coffee preparation cycle time" ReqIFName="UR-B-04" ReqIFText="The coffee preparation cycle time shall be defined and bounded: (a) from request to coffee available at serving temperature when the system is ready (TBD); (b) from a cold or idle start (TBD); (c) between consecutive servings (TBD)."/>
         <ownedRequirements xsi:type="Requirements:Requirement" id="b9ec03d9-dc96-43dd-a29d-9980479f0ab3"
             ReqIFDescription="Rationale: different preferences in one household; a lighter option for later in the day. Capabilities (NOTE-0002): 2, 3. Verification: Demonstration (proposed category). Evidence: U. Draft: NOTE-0003 revision 2."
-            ReqIFLongName="Coffee varieties" ReqIFName="UR-B-01" ReqIFText="The system shall support at least three distinct coffee varieties: one preferred by a first drinker, one preferred by a second drinker, and one reduced-caffeine variety (for example half-caffeine) for daytime use."/>
+            ReqIFLongName="Coffee varieties" ReqIFName="UR-B-01" ReqIFText="The system shall support at least three distinct coffee varieties: one preferred by a first drinker, one preferred by a second drinker, and one reduced-caffeine variety (for example half-caffeine) for daytime use.">
+          <ownedRelations xsi:type="CapellaRequirements:CapellaIncomingRelation" id="0e4e70c4-e630-4810-9b18-996ddbcf869c"
+              target="#74ad58bb-90ae-4017-99ae-f41510b8681b" source="#b9ec03d9-dc96-43dd-a29d-9980479f0ab3"/>
+        </ownedRequirements>
         <ownedRequirements xsi:type="Requirements:Requirement" id="c9d15656-7110-46c0-91bc-c8120aaa9ac0"
             ReqIFDescription="Rationale: coffee should be hot enough to enjoy and not hotter than a stated upper limit. Capabilities (NOTE-0002): 1. Verification: Test (proposed category). Evidence: U; values TBD. Draft: NOTE-0003 revision 2, DEC-0009."
             ReqIFLongName="Serving temperature as experienced by the drinker" ReqIFName="UR-B-02"
