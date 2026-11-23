@@ -143,6 +143,8 @@
               id="cf06f8eb-43a3-41b1-aa92-c6a331b0fc23" involved="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
           <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
               id="000717bd-8b1e-4de9-80f7-f354da876efe" involved="#65342e93-d242-4b83-8a78-cffa08d58b16"/>
+          <ownedEntityOperationalCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.oa:EntityOperationalCapabilityInvolvement"
+              id="9dbc1c9c-b07f-4361-9534-69582e670873" involved="#cf58782e-8589-414a-b68b-c3f0acbd7196"/>
         </ownedOperationalCapabilities>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="966c2c17-8f77-460c-b588-4954e59b6724" name="Contain and clear spills and drips"
