@@ -115,6 +115,10 @@
           id="c1828807-9016-4c85-9c6c-7b1429f20cd6" name="Operational Activities">
         <ownedOperationalActivities xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
             id="e390c4f0-b08f-4c51-92f6-1a0af895226e" name="Root Operational Activity">
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="8fbb88f5-ac07-4fb8-9279-98fbbe208fa1" description="The drinker&amp;#x27;s request for a serving. Draft: NOTE-0007, process PR1."
+              name="Serving request" source="#30d58150-a1d2-405b-89d1-9cae77c5590d"
+              target="#50291089-5a75-4ef2-ad24-d800694b4a32"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="30d58150-a1d2-405b-89d1-9cae77c5590d" description="The drinker decides the variety, amount and strength of the serving and asks for it. Supports: Tailor the serving to the occasion; Prepare a serving of hot coffee on demand. Draft: NOTE-0007."
               name="Choose and request the serving"/>
