@@ -114,7 +114,92 @@
       <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalActivityPkg"
           id="c1828807-9016-4c85-9c6c-7b1429f20cd6" name="Operational Activities">
         <ownedOperationalActivities xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
-            id="e390c4f0-b08f-4c51-92f6-1a0af895226e" name="Root Operational Activity"/>
+            id="e390c4f0-b08f-4c51-92f6-1a0af895226e" name="Root Operational Activity">
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="30d58150-a1d2-405b-89d1-9cae77c5590d" description="The drinker decides the variety, amount and strength of the serving and asks for it. Supports: Tailor the serving to the occasion; Prepare a serving of hot coffee on demand. Draft: NOTE-0007."
+              name="Choose and request the serving"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="2b8cb2b3-6ab5-48ae-a89c-e8247bbc5c2f" description="The drinker gets ready-to-use coffee supplies from the supply chain. Supports: Obtain ready-to-use coffee supplies in variety. Draft: NOTE-0007."
+              name="Obtain coffee supplies"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="e654e7c5-fe06-42fc-b201-8d92a95b9565" description="The drinker places the coffee supplies where the equipment can use them. Supports: Prepare a serving of hot coffee on demand. Draft: NOTE-0007."
+              name="Load coffee supplies"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="598b1745-4e7a-4128-9c5b-f6cdab9e9d16" description="The drinker takes the served coffee and drinks it. Supports: Prepare a serving of hot coffee on demand. Draft: NOTE-0007."
+              name="Collect and enjoy the served coffee"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="ffa75148-3e8a-4e74-b0a5-2f128d970d69" description="The drinker takes out what is left after a serving. Supports: Dispose of used coffee remains and packaging without mess. Draft: NOTE-0007."
+              name="Remove used coffee remains and packaging"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="9337eee7-e243-4d2e-9a11-bc4faccaab67" description="The drinker passes the used coffee remains and packaging on to waste handling. Supports: Dispose of used coffee remains and packaging without mess. Draft: NOTE-0007."
+              name="Hand over discards for recovery or disposal"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="d02985a7-d179-4af8-b5e2-bc1847890fe2" description="The drinker clears whatever the equipment has captured. Supports: Contain and clear spills and drips. Draft: NOTE-0007."
+              name="Clear spills and drips"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="1a16e831-c317-4713-8c89-fd17c259ba4f" description="The drinker provides the water the equipment needs. Supports: Keep the equipment supplied with water. Draft: NOTE-0007."
+              name="Supply water to the equipment"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="b19c58f6-5bf3-425f-99f3-f519de54930b" description="The drinker gets the equipment ready for first use or after storage. Supports: Make the equipment ready for use. Draft: NOTE-0007."
+              name="Prepare the equipment for use"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="ea71ea52-cb34-46f2-bace-1f74757004e7" description="The drinker looks at what the equipment indicates about its state. Supports: Make the equipment ready for use; Keep the equipment supplied with water. Draft: NOTE-0007."
+              name="Check equipment status"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="663e61ea-21e1-402c-8b36-126a71362da1" description="The drinker carries out routine cleaning and descaling. Supports: Keep the equipment clean and performing. Draft: NOTE-0007."
+              name="Maintain the equipment"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="bafc5e5a-adde-495a-abee-d24fad6f1f51" description="The drinker stores or moves the equipment between uses. Supports: Store, move, and obtain support or replacement parts. Draft: NOTE-0007."
+              name="Store or move the equipment"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="75662e78-eaa8-415d-97f2-0c7ee41ae8f8" description="The drinker asks for guidance, replacement parts or warranty service. Supports: Store, move, and obtain support or replacement parts. Draft: NOTE-0007."
+              name="Request support or replacement parts"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="50291089-5a75-4ef2-ad24-d800694b4a32" description="The equipment accepts the drinker&amp;#x27;s request for a serving. Supports: Prepare a serving of hot coffee on demand. Draft: NOTE-0007."
+              name="Receive the serving request"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="a6b8ba51-8c1c-40e1-9e3a-c9c04c3f90ad" description="The equipment brings the water to the condition needed for the serving. Supports: Prepare a serving of hot coffee on demand. Draft: NOTE-0007."
+              name="Condition the water"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="3beb58ed-d5dd-4d19-97fb-0ba724c912d3" description="The equipment combines the coffee supplies and conditioned water into the serving, to the selected amount and strength. Supports: Prepare a serving of hot coffee on demand; Tailor the serving to the occasion. Draft: NOTE-0007."
+              name="Prepare the serving"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="03ed2682-ac97-4d85-98e1-8d33ff783d95" description="The equipment delivers the served coffee into the drinker&amp;#x27;s vessel. Supports: Prepare a serving of hot coffee on demand. Draft: NOTE-0007."
+              name="Deliver the served coffee"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="0e59860f-8f28-480f-a63f-17ead380e7a4" description="The equipment captures what spills or drips. Supports: Contain and clear spills and drips. Draft: NOTE-0007."
+              name="Capture spills and drips"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="a949c5be-e801-4d2c-82ea-b444173f4515" description="The equipment shows its state to the drinker. Supports: Make the equipment ready for use; Keep the equipment supplied with water. Draft: NOTE-0007."
+              name="Indicate equipment status"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="f8fd7075-f86d-4a56-83c3-ee06d015f2d5" description="The equipment lowers its energy use when it is not in use. Supports: Return to readiness after idle. Draft: NOTE-0007."
+              name="Reduce energy use when idle"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="195532e2-518e-41ec-9383-3c1b756bcd78" description="The equipment returns to its ready state when needed. Supports: Return to readiness after idle. Draft: NOTE-0007."
+              name="Return to ready state"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="a6487ed3-4bca-42ff-b53e-776544565ec1" description="The supply chain makes, packages, distributes and sells ready-to-use coffee supplies in several varieties. Supports: Obtain ready-to-use coffee supplies in variety. Draft: NOTE-0007."
+              name="Provide ready-to-use coffee supplies in variety"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="be45ec9c-9c13-48c3-8b57-e49b42434e6f" description="The supply chain marks the packaging so the drinker knows how to dispose of it. Supports: Obtain ready-to-use coffee supplies in variety; Dispose of used coffee remains and packaging without mess. Draft: NOTE-0007 (assumed; expresses UR-G-02)."
+              name="Mark packaging with disposal guidance"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="d4e61441-5a8f-47d4-bc43-31e59d896bf5" description="The manufacturer&amp;#x27;s support gives guidance, replacement parts and warranty service. Supports: Store, move, and obtain support or replacement parts. Draft: NOTE-0007."
+              name="Provide guidance, parts and warranty service"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="27ff9e7b-7957-41d1-8623-e0c4f1ba2112" description="Waste handling receives what the drinker discards. Supports: Dispose of used coffee remains and packaging without mess. Draft: NOTE-0007."
+              name="Receive discards"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="0ab157a6-b616-492e-aead-250495ec353f" description="Waste handling routes discards to recycling, composting or disposal. Supports: Dispose of used coffee remains and packaging without mess. Draft: NOTE-0007."
+              name="Route discards to recovery or disposal"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="c23099be-e5f7-48d4-83ca-54c6bfc11127" description="The utilities supply provides water. Supports: Keep the equipment supplied with water. Draft: NOTE-0007."
+              name="Provide water"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
+              id="681f2ab8-c54c-499f-8e8b-118e4b8d0ddc" description="The utilities supply provides electrical power. Supports: Make the equipment ready for use; Return to readiness after idle. Draft: NOTE-0007."
+              name="Provide electrical power"/>
+        </ownedOperationalActivities>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg"
           id="e98f0aa8-6701-4804-adc3-d30d80ce6bb3" name="Operational Capabilities">
