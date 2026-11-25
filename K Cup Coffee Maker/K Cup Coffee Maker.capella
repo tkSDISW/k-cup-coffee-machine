@@ -122,113 +122,119 @@
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="bdc541f1-e8a1-4fc1-aed4-ea3d63fd61e8" description="PR1. Passes the request on for preparation. Draft: NOTE-0007."
               name="Serving request" source="#50291089-5a75-4ef2-ad24-d800694b4a32"
-              target="#3beb58ed-d5dd-4d19-97fb-0ba724c912d3"/>
+              target="#3beb58ed-d5dd-4d19-97fb-0ba724c912d3" exchangedItems="#d203b7b6-af1c-4c4e-a7ea-bf7ce4283676"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="e589d080-cb87-4a92-aba5-2a968f0a9aac" description="PR1. The loaded supplies go into the serving. Draft: NOTE-0007."
               name="Coffee supplies" source="#e654e7c5-fe06-42fc-b201-8d92a95b9565"
-              target="#3beb58ed-d5dd-4d19-97fb-0ba724c912d3"/>
+              target="#3beb58ed-d5dd-4d19-97fb-0ba724c912d3" exchangedItems="#34815d9c-1ce5-4f34-84ee-7e97a0717b40"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="7321f89d-1a46-457a-a185-8ad819829fbd" description="PR1. Conditioned water goes into the serving. Draft: NOTE-0007."
-              name="Water" source="#a6b8ba51-8c1c-40e1-9e3a-c9c04c3f90ad" target="#3beb58ed-d5dd-4d19-97fb-0ba724c912d3"/>
+              name="Water" source="#a6b8ba51-8c1c-40e1-9e3a-c9c04c3f90ad" target="#3beb58ed-d5dd-4d19-97fb-0ba724c912d3"
+              exchangedItems="#0f9acb52-203f-4322-a968-e85ec8e9dd95"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="e6a3dd4b-6449-4e63-ac13-8c20a11298ab" description="PR1. The prepared coffee goes on for delivery. Draft: NOTE-0007."
               name="Prepared coffee" source="#3beb58ed-d5dd-4d19-97fb-0ba724c912d3"
-              target="#03ed2682-ac97-4d85-98e1-8d33ff783d95"/>
+              target="#03ed2682-ac97-4d85-98e1-8d33ff783d95" exchangedItems="#3f74b8c7-d2c3-4015-b234-a8af81f614ac"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="3d4e1940-797a-4a80-aecb-6ad2a75522ed" description="PR1. The served coffee reaches the drinker. Serving temperature and strength apply here. Draft: NOTE-0007."
               name="Served coffee" source="#03ed2682-ac97-4d85-98e1-8d33ff783d95"
-              target="#598b1745-4e7a-4128-9c5b-f6cdab9e9d16"/>
+              target="#598b1745-4e7a-4128-9c5b-f6cdab9e9d16" exchangedItems="#2db6667c-f098-4269-a40c-1381ef0f2332"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="83638ec8-0de3-4e1e-a96d-f1d9584d032b" description="PR1. Power for conditioning the water. Draft: NOTE-0007."
               name="Electrical power" source="#681f2ab8-c54c-499f-8e8b-118e4b8d0ddc"
-              target="#a6b8ba51-8c1c-40e1-9e3a-c9c04c3f90ad"/>
+              target="#a6b8ba51-8c1c-40e1-9e3a-c9c04c3f90ad" exchangedItems="#00802451-859e-4891-965b-89a9c2dbf11e"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="a5df38d4-66b5-421d-b5a4-db73d97654b3" description="PR2. The supply chain provides supplies to the drinker. Draft: NOTE-0007."
               name="Coffee supplies" source="#a6487ed3-4bca-42ff-b53e-776544565ec1"
-              target="#2b8cb2b3-6ab5-48ae-a89c-e8247bbc5c2f"/>
+              target="#2b8cb2b3-6ab5-48ae-a89c-e8247bbc5c2f" exchangedItems="#34815d9c-1ce5-4f34-84ee-7e97a0717b40"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="cc69342b-4639-4e5f-9fb3-aa4989f5b8e4" description="PR2. Obtained supplies are loaded for use. Draft: NOTE-0007."
               name="Coffee supplies" source="#2b8cb2b3-6ab5-48ae-a89c-e8247bbc5c2f"
-              target="#e654e7c5-fe06-42fc-b201-8d92a95b9565"/>
+              target="#e654e7c5-fe06-42fc-b201-8d92a95b9565" exchangedItems="#34815d9c-1ce5-4f34-84ee-7e97a0717b40"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="8f606fb9-906b-4120-ac27-bc6f910a9608" description="PR2. Packaging marking tells the drinker how to dispose of it. Draft: NOTE-0007 (assumed)."
               name="Disposal guidance" source="#be45ec9c-9c13-48c3-8b57-e49b42434e6f"
-              target="#9337eee7-e243-4d2e-9a11-bc4faccaab67"/>
+              target="#9337eee7-e243-4d2e-9a11-bc4faccaab67" exchangedItems="#0f3d9465-6615-4baa-be24-2b7deaf66d90"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="c1188056-2ce1-49a6-850e-1be396720f78" description="PR3. What is left after a serving is passed to the drinker. Draft: NOTE-0007."
               name="Used coffee remains and packaging" source="#3beb58ed-d5dd-4d19-97fb-0ba724c912d3"
-              target="#ffa75148-3e8a-4e74-b0a5-2f128d970d69"/>
+              target="#ffa75148-3e8a-4e74-b0a5-2f128d970d69" exchangedItems="#f9c9a333-de23-4d0c-aa63-f870dad684ae"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="8434e18f-3f32-45cd-8238-3203961c64c8" description="PR3. Removed items are handed over. Draft: NOTE-0007."
               name="Used coffee remains and packaging" source="#ffa75148-3e8a-4e74-b0a5-2f128d970d69"
-              target="#9337eee7-e243-4d2e-9a11-bc4faccaab67"/>
+              target="#9337eee7-e243-4d2e-9a11-bc4faccaab67" exchangedItems="#f9c9a333-de23-4d0c-aa63-f870dad684ae"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="9b09941f-8821-420b-9a73-556861ea8c7e" description="PR3. The drinker hands discards to waste handling. Draft: NOTE-0007."
               name="Used coffee remains and packaging" source="#9337eee7-e243-4d2e-9a11-bc4faccaab67"
-              target="#27ff9e7b-7957-41d1-8623-e0c4f1ba2112"/>
+              target="#27ff9e7b-7957-41d1-8623-e0c4f1ba2112" exchangedItems="#f9c9a333-de23-4d0c-aa63-f870dad684ae"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="8be09181-df60-425a-8d0b-b29c36b7610b" description="PR3. Waste handling routes what it received. Draft: NOTE-0007."
               name="Used coffee remains and packaging" source="#27ff9e7b-7957-41d1-8623-e0c4f1ba2112"
-              target="#0ab157a6-b616-492e-aead-250495ec353f"/>
+              target="#0ab157a6-b616-492e-aead-250495ec353f" exchangedItems="#f9c9a333-de23-4d0c-aa63-f870dad684ae"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="375874ba-5b54-4073-bac1-1ec433ae8da2" description="PR4. Spills and drips from delivery are captured. Draft: NOTE-0007."
               name="Spills and drips" source="#03ed2682-ac97-4d85-98e1-8d33ff783d95"
-              target="#0e59860f-8f28-480f-a63f-17ead380e7a4"/>
+              target="#0e59860f-8f28-480f-a63f-17ead380e7a4" exchangedItems="#467474d1-00f7-4432-b348-a8cec71cac6c"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="e4f1b527-4b7a-4719-8bc8-97b49b8458e1" description="PR4. The drinker clears what was captured. Draft: NOTE-0007."
               name="Spills and drips" source="#0e59860f-8f28-480f-a63f-17ead380e7a4"
-              target="#d02985a7-d179-4af8-b5e2-bc1847890fe2"/>
+              target="#d02985a7-d179-4af8-b5e2-bc1847890fe2" exchangedItems="#467474d1-00f7-4432-b348-a8cec71cac6c"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="9d016659-b1d6-4ebd-8023-b52fd278e7e3" description="PR5. The utilities supply provides water to the drinker. Draft: NOTE-0007."
-              name="Water" source="#c23099be-e5f7-48d4-83ca-54c6bfc11127" target="#1a16e831-c317-4713-8c89-fd17c259ba4f"/>
+              name="Water" source="#c23099be-e5f7-48d4-83ca-54c6bfc11127" target="#1a16e831-c317-4713-8c89-fd17c259ba4f"
+              exchangedItems="#0f9acb52-203f-4322-a968-e85ec8e9dd95"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="77ff7585-0710-4831-a6cf-5a5c892917cf" description="PR5. The drinker supplies water to the equipment. Draft: NOTE-0007."
-              name="Water" source="#1a16e831-c317-4713-8c89-fd17c259ba4f" target="#a6b8ba51-8c1c-40e1-9e3a-c9c04c3f90ad"/>
+              name="Water" source="#1a16e831-c317-4713-8c89-fd17c259ba4f" target="#a6b8ba51-8c1c-40e1-9e3a-c9c04c3f90ad"
+              exchangedItems="#0f9acb52-203f-4322-a968-e85ec8e9dd95"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="f4f7554d-067f-4842-952f-35928f193f97" description="PR5. The equipment shows its state to the drinker. Draft: NOTE-0007."
               name="Equipment status" source="#a949c5be-e801-4d2c-82ea-b444173f4515"
-              target="#ea71ea52-cb34-46f2-bace-1f74757004e7"/>
+              target="#ea71ea52-cb34-46f2-bace-1f74757004e7" exchangedItems="#88002060-fd8d-44e5-a32b-1691d5d21fac"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="8590bdea-e2ab-4fe6-a186-29576719ccbe" description="PR6. Power while the equipment is idle. Draft: NOTE-0007."
               name="Electrical power" source="#681f2ab8-c54c-499f-8e8b-118e4b8d0ddc"
-              target="#f8fd7075-f86d-4a56-83c3-ee06d015f2d5"/>
+              target="#f8fd7075-f86d-4a56-83c3-ee06d015f2d5" exchangedItems="#00802451-859e-4891-965b-89a9c2dbf11e"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="ddacf8c8-6196-4977-867b-75e6de5b7cb8" description="PR6. Water for set-up. Draft: NOTE-0007."
-              name="Water" source="#1a16e831-c317-4713-8c89-fd17c259ba4f" target="#b19c58f6-5bf3-425f-99f3-f519de54930b"/>
+              name="Water" source="#1a16e831-c317-4713-8c89-fd17c259ba4f" target="#b19c58f6-5bf3-425f-99f3-f519de54930b"
+              exchangedItems="#0f9acb52-203f-4322-a968-e85ec8e9dd95"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="a734e961-bd0d-49f1-a78a-ddfd64bac582" description="PR6. Water used when preparing the equipment goes to the equipment. Draft: NOTE-0007."
-              name="Water" source="#b19c58f6-5bf3-425f-99f3-f519de54930b" target="#a6b8ba51-8c1c-40e1-9e3a-c9c04c3f90ad"/>
+              name="Water" source="#b19c58f6-5bf3-425f-99f3-f519de54930b" target="#a6b8ba51-8c1c-40e1-9e3a-c9c04c3f90ad"
+              exchangedItems="#0f9acb52-203f-4322-a968-e85ec8e9dd95"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="87f81702-452e-46c8-a67e-f04f26f3aa02" description="PR6. The idle state is carried into the return to ready. Draft: NOTE-0007."
               name="Equipment status" source="#f8fd7075-f86d-4a56-83c3-ee06d015f2d5"
-              target="#195532e2-518e-41ec-9383-3c1b756bcd78"/>
+              target="#195532e2-518e-41ec-9383-3c1b756bcd78" exchangedItems="#88002060-fd8d-44e5-a32b-1691d5d21fac"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="26d1f688-11a3-42bf-bea5-d2748a06f904" description="PR6. A request received while idle returns the equipment to ready. Draft: NOTE-0007."
               name="Serving request" source="#50291089-5a75-4ef2-ad24-d800694b4a32"
-              target="#195532e2-518e-41ec-9383-3c1b756bcd78"/>
+              target="#195532e2-518e-41ec-9383-3c1b756bcd78" exchangedItems="#d203b7b6-af1c-4c4e-a7ea-bf7ce4283676"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="40e1e589-ddcf-451b-a345-11592702cb82" description="PR6. The equipment shows that it is ready. Draft: NOTE-0007."
               name="Equipment status" source="#195532e2-518e-41ec-9383-3c1b756bcd78"
-              target="#a949c5be-e801-4d2c-82ea-b444173f4515"/>
+              target="#a949c5be-e801-4d2c-82ea-b444173f4515" exchangedItems="#88002060-fd8d-44e5-a32b-1691d5d21fac"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="d21fe10f-34b9-489d-b87d-30632c75b7ce" description="PR7. The drinker acts on the indicated status. Draft: NOTE-0007."
               name="Equipment status" source="#ea71ea52-cb34-46f2-bace-1f74757004e7"
-              target="#663e61ea-21e1-402c-8b36-126a71362da1"/>
+              target="#663e61ea-21e1-402c-8b36-126a71362da1" exchangedItems="#88002060-fd8d-44e5-a32b-1691d5d21fac"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="7304716e-9076-4990-978e-e66f753ed28e" description="PR7. Water used for cleaning and descaling. Draft: NOTE-0007."
-              name="Water" source="#1a16e831-c317-4713-8c89-fd17c259ba4f" target="#663e61ea-21e1-402c-8b36-126a71362da1"/>
+              name="Water" source="#1a16e831-c317-4713-8c89-fd17c259ba4f" target="#663e61ea-21e1-402c-8b36-126a71362da1"
+              exchangedItems="#0f9acb52-203f-4322-a968-e85ec8e9dd95"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="65fae332-e731-4cfc-a40b-fcc911dbdf43" description="PR7. Liquid left after cleaning goes to waste handling. Draft: NOTE-0007 (inferred)."
               name="Used cleaning liquid" source="#663e61ea-21e1-402c-8b36-126a71362da1"
-              target="#27ff9e7b-7957-41d1-8623-e0c4f1ba2112"/>
+              target="#27ff9e7b-7957-41d1-8623-e0c4f1ba2112" exchangedItems="#0c3b13e8-f03d-4176-8c5b-6af1024d52d2"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="aa536459-eddd-44ee-b143-a572a343a905" description="PR8. The drinker asks for support. Draft: NOTE-0007."
               name="Support request" source="#75662e78-eaa8-415d-97f2-0c7ee41ae8f8"
-              target="#d4e61441-5a8f-47d4-bc43-31e59d896bf5"/>
+              target="#d4e61441-5a8f-47d4-bc43-31e59d896bf5" exchangedItems="#462467f9-9d1f-48d8-938f-394127299fa9"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="894f98ca-974c-4438-878f-5e4ed84e46a4" description="PR8. Support responds with guidance, parts or service. Draft: NOTE-0007."
               name="Guidance and replacement parts" source="#d4e61441-5a8f-47d4-bc43-31e59d896bf5"
-              target="#75662e78-eaa8-415d-97f2-0c7ee41ae8f8"/>
+              target="#75662e78-eaa8-415d-97f2-0c7ee41ae8f8" exchangedItems="#d0140981-4849-4483-a061-3c494c2dcc59"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="30d58150-a1d2-405b-89d1-9cae77c5590d" description="The drinker decides the variety, amount and strength of the serving and asks for it. Supports: Tailor the serving to the occasion; Prepare a serving of hot coffee on demand. Draft: NOTE-0007."
               name="Choose and request the serving"/>
