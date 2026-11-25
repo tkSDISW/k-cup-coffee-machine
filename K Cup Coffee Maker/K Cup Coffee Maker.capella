@@ -392,7 +392,47 @@
             name="Utilities Supply" abstractType="#838b5f6c-a58b-41da-8180-182fd488bc2f"/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="689a685b-ebfd-4b53-bc72-e55c5727210d"
             name="Coffee Drinker" description="External actor. The person who wants a cup of coffee and carries out the everyday steps: choosing a serving, loading supplies, adding water, collecting the coffee, handling what is discarded, and routine cleaning."
-            actor="true" human="true"/>
+            actor="true" human="true">
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="bcbb2f9e-56f5-41d4-905e-a289bc2b6f5d" targetElement="#30d58150-a1d2-405b-89d1-9cae77c5590d"
+              sourceElement="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="1da388c1-d250-4f8c-b941-c941eebeeae7" targetElement="#2b8cb2b3-6ab5-48ae-a89c-e8247bbc5c2f"
+              sourceElement="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="ebbaf547-70aa-4bd8-8e07-18e9f957bb32" targetElement="#e654e7c5-fe06-42fc-b201-8d92a95b9565"
+              sourceElement="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="b42f75bf-afd4-4fa1-ae9c-c904f8421782" targetElement="#598b1745-4e7a-4128-9c5b-f6cdab9e9d16"
+              sourceElement="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="0fe38df0-0a7e-4328-847d-7ad5974106cd" targetElement="#ffa75148-3e8a-4e74-b0a5-2f128d970d69"
+              sourceElement="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="da6c77d9-f87c-430e-83e6-677949928011" targetElement="#9337eee7-e243-4d2e-9a11-bc4faccaab67"
+              sourceElement="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="730ac9bd-edad-493a-a8ca-0d856622b8fc" targetElement="#d02985a7-d179-4af8-b5e2-bc1847890fe2"
+              sourceElement="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="2e85d8db-6079-4c27-add5-f1638561d9b9" targetElement="#1a16e831-c317-4713-8c89-fd17c259ba4f"
+              sourceElement="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="17f1cadf-e4ac-4ba7-abd1-5edac960ae37" targetElement="#b19c58f6-5bf3-425f-99f3-f519de54930b"
+              sourceElement="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="185faa2f-7424-4951-948d-70a933c82616" targetElement="#ea71ea52-cb34-46f2-bace-1f74757004e7"
+              sourceElement="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="691b4133-ea1b-4cfe-a3e6-278b1914cf35" targetElement="#663e61ea-21e1-402c-8b36-126a71362da1"
+              sourceElement="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="de214ca1-435a-47da-b25e-3defb76795a8" targetElement="#bafc5e5a-adde-495a-abee-d24fad6f1f51"
+              sourceElement="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="978b9eff-a56e-4a2a-bc28-adaf909e4a4c" targetElement="#75662e78-eaa8-415d-97f2-0c7ee41ae8f8"
+              sourceElement="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
+        </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="65342e93-d242-4b83-8a78-cffa08d58b16"
             name="Coffee-Making Equipment" description="The equipment that turns supplies and water into a served cup of coffee on request, and stays ready between uses. Modeled as a generic entity; later phases describe the specific design."/>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="9a67ade9-4d1a-4689-815d-e257c98195eb"
