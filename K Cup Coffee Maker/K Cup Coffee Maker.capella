@@ -434,15 +434,65 @@
               sourceElement="#689a685b-ebfd-4b53-bc72-e55c5727210d"/>
         </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="65342e93-d242-4b83-8a78-cffa08d58b16"
-            name="Coffee-Making Equipment" description="The equipment that turns supplies and water into a served cup of coffee on request, and stays ready between uses. Modeled as a generic entity; later phases describe the specific design."/>
+            name="Coffee-Making Equipment" description="The equipment that turns supplies and water into a served cup of coffee on request, and stays ready between uses. Modeled as a generic entity; later phases describe the specific design.">
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="757ec505-7c2e-4e75-89e7-f366bbee04db" targetElement="#50291089-5a75-4ef2-ad24-d800694b4a32"
+              sourceElement="#65342e93-d242-4b83-8a78-cffa08d58b16"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="60c2bd8e-9ce8-4bda-9801-09679c6d0e08" targetElement="#a6b8ba51-8c1c-40e1-9e3a-c9c04c3f90ad"
+              sourceElement="#65342e93-d242-4b83-8a78-cffa08d58b16"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="6986fbc6-9870-4e6a-bf10-36533f585d42" targetElement="#3beb58ed-d5dd-4d19-97fb-0ba724c912d3"
+              sourceElement="#65342e93-d242-4b83-8a78-cffa08d58b16"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="4cf9adb2-aac2-447d-8a48-e5f7c28fa176" targetElement="#03ed2682-ac97-4d85-98e1-8d33ff783d95"
+              sourceElement="#65342e93-d242-4b83-8a78-cffa08d58b16"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="39c12e1d-7bc4-4163-b2ee-e70de9a0ae8e" targetElement="#0e59860f-8f28-480f-a63f-17ead380e7a4"
+              sourceElement="#65342e93-d242-4b83-8a78-cffa08d58b16"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="6f34845b-4066-4fd8-9d96-b1c68cda509f" targetElement="#a949c5be-e801-4d2c-82ea-b444173f4515"
+              sourceElement="#65342e93-d242-4b83-8a78-cffa08d58b16"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="e18adff5-cd5b-4c1c-8f0c-3e06d31e4d2b" targetElement="#f8fd7075-f86d-4a56-83c3-ee06d015f2d5"
+              sourceElement="#65342e93-d242-4b83-8a78-cffa08d58b16"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="b77e1fd3-2b95-466b-aed8-f15e2fa1b38c" targetElement="#195532e2-518e-41ec-9383-3c1b756bcd78"
+              sourceElement="#65342e93-d242-4b83-8a78-cffa08d58b16"/>
+        </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="9a67ade9-4d1a-4689-815d-e257c98195eb"
-            name="Coffee Supply Chain" description="Producers, packagers, retailers and delivery services that provide ready-to-use coffee supplies to the drinker. For this model the relevant outputs are the supplies and their packaging; growing, roasting and shipping the coffee itself are outside the boundary (DEC-0009)."/>
+            name="Coffee Supply Chain" description="Producers, packagers, retailers and delivery services that provide ready-to-use coffee supplies to the drinker. For this model the relevant outputs are the supplies and their packaging; growing, roasting and shipping the coffee itself are outside the boundary (DEC-0009).">
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="dc19cfd5-a638-4b5d-9ab5-0b9cffc0683e" targetElement="#a6487ed3-4bca-42ff-b53e-776544565ec1"
+              sourceElement="#9a67ade9-4d1a-4689-815d-e257c98195eb"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="1497c22f-ae4b-4dec-ba34-47962e9735c8" targetElement="#be45ec9c-9c13-48c3-8b57-e49b42434e6f"
+              sourceElement="#9a67ade9-4d1a-4689-815d-e257c98195eb"/>
+        </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="838b5f6c-a58b-41da-8180-182fd488bc2f"
-            name="Utilities Supply" description="Provides the water and the electrical power that the equipment uses. One combined entity for now; water and power can be split later if the exchanges need it."/>
+            name="Utilities Supply" description="Provides the water and the electrical power that the equipment uses. One combined entity for now; water and power can be split later if the exchanges need it.">
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="c3f462aa-4a8a-47f2-8133-bfab4b62c551" targetElement="#c23099be-e5f7-48d4-83ca-54c6bfc11127"
+              sourceElement="#838b5f6c-a58b-41da-8180-182fd488bc2f"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="c16e9e49-b94d-4cd8-ab36-2ead4c61123e" targetElement="#681f2ab8-c54c-499f-8e8b-118e4b8d0ddc"
+              sourceElement="#838b5f6c-a58b-41da-8180-182fd488bc2f"/>
+        </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="cf58782e-8589-414a-b68b-c3f0acbd7196"
-            name="Waste Handling" description="The household and municipal routes that receive what the drinker discards: used coffee remains and packaging. This is where recycling, composting or disposal happens, and where the waste goals (coffee in, coffee out) are measured."/>
+            name="Waste Handling" description="The household and municipal routes that receive what the drinker discards: used coffee remains and packaging. This is where recycling, composting or disposal happens, and where the waste goals (coffee in, coffee out) are measured.">
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="4a640969-7461-420a-9ca6-77fb3dcabe83" targetElement="#27ff9e7b-7957-41d1-8623-e0c4f1ba2112"
+              sourceElement="#cf58782e-8589-414a-b68b-c3f0acbd7196"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="c27ecd3c-fd8e-4efd-8856-66cb531bc06c" targetElement="#0ab157a6-b616-492e-aead-250495ec353f"
+              sourceElement="#cf58782e-8589-414a-b68b-c3f0acbd7196"/>
+        </ownedEntities>
         <ownedEntities xsi:type="org.polarsys.capella.core.data.oa:Entity" id="95643ac7-ff7b-46e2-95a9-98f8518311de"
-            name="Equipment Support" description="The manufacturer&amp;#x27;s support services that help the drinker with the equipment: guidance, replacement parts and warranty service."/>
+            name="Equipment Support" description="The manufacturer&amp;#x27;s support services that help the drinker with the equipment: guidance, replacement parts and warranty service.">
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="e16dcd37-4122-43b7-b887-c1c113897769" targetElement="#d4e61441-5a8f-47d4-bc43-31e59d896bf5"
+              sourceElement="#95643ac7-ff7b-46e2-95a9-98f8518311de"/>
+        </ownedEntities>
       </ownedEntityPkg>
     </ownedArchitectures>
     <ownedArchitectures xsi:type="org.polarsys.capella.core.data.ctx:SystemAnalysis"
