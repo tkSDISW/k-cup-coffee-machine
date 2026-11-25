@@ -373,7 +373,47 @@
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
           id="b07f6c41-d427-4725-9b36-7fef7d62ea7b" name="Interfaces"/>
       <ownedDataPkg xsi:type="org.polarsys.capella.core.data.information:DataPkg"
-          id="8dc8c796-8579-45db-8196-6ae58a39c600" name="Data"/>
+          id="8dc8c796-8579-45db-8196-6ae58a39c600" name="Data">
+        <ownedExchangeItems xsi:type="org.polarsys.capella.core.data.information:ExchangeItem"
+            id="d203b7b6-af1c-4c4e-a7ea-bf7ce4283676" description="The drinker&amp;#x27;s request for a serving, with the chosen variety, amount and strength. Draft: NOTE-0007."
+            name="Serving request"/>
+        <ownedExchangeItems xsi:type="org.polarsys.capella.core.data.information:ExchangeItem"
+            id="34815d9c-1ce5-4f34-84ee-7e97a0717b40" description="Ready-to-use coffee supplies with their packaging. Packaging mass per serving and the packaging-to-coffee ratio are measured here (UR-G-04). Draft: NOTE-0007."
+            name="Coffee supplies"/>
+        <ownedExchangeItems xsi:type="org.polarsys.capella.core.data.information:ExchangeItem"
+            id="0f9acb52-203f-4322-a968-e85ec8e9dd95" description="Water used for the serving, for set-up and for cleaning. Water use beyond the beverage is measured here (UR-G-06). Draft: NOTE-0007."
+            name="Water"/>
+        <ownedExchangeItems xsi:type="org.polarsys.capella.core.data.information:ExchangeItem"
+            id="00802451-859e-4891-965b-89a9c2dbf11e" description="Electrical power used by the equipment. Energy per serving and idle energy per day are measured here (UR-G-05). Draft: NOTE-0007."
+            name="Electrical power"/>
+        <ownedExchangeItems xsi:type="org.polarsys.capella.core.data.information:ExchangeItem"
+            id="3f74b8c7-d2c3-4015-b234-a8af81f614ac" description="The coffee as prepared by the equipment, before it is delivered. Draft: NOTE-0007."
+            name="Prepared coffee"/>
+        <ownedExchangeItems xsi:type="org.polarsys.capella.core.data.information:ExchangeItem"
+            id="2db6667c-f098-4269-a40c-1381ef0f2332" description="The coffee as delivered to the drinker. Serving temperature (UR-B-02) and strength (UR-B-03) are properties of this item. Draft: NOTE-0007."
+            name="Served coffee"/>
+        <ownedExchangeItems xsi:type="org.polarsys.capella.core.data.information:ExchangeItem"
+            id="f9c9a333-de23-4d0c-aa63-f870dad684ae" description="What is left after a serving: the used coffee remains and the packaging. Waste beyond used coffee remains is measured here (UR-G-01, UR-G-03). Draft: NOTE-0007."
+            name="Used coffee remains and packaging"/>
+        <ownedExchangeItems xsi:type="org.polarsys.capella.core.data.information:ExchangeItem"
+            id="0f3d9465-6615-4baa-be24-2b7deaf66d90" description="Marking on the packaging that tells the drinker how to dispose of it (UR-G-02). Draft: NOTE-0007 (assumed)."
+            name="Disposal guidance"/>
+        <ownedExchangeItems xsi:type="org.polarsys.capella.core.data.information:ExchangeItem"
+            id="467474d1-00f7-4432-b348-a8cec71cac6c" description="Liquid that spills or drips during or after a serving. Draft: NOTE-0007."
+            name="Spills and drips"/>
+        <ownedExchangeItems xsi:type="org.polarsys.capella.core.data.information:ExchangeItem"
+            id="88002060-fd8d-44e5-a32b-1691d5d21fac" description="What the equipment shows about its state, for example ready, needing water or needing cleaning. Draft: NOTE-0007."
+            name="Equipment status"/>
+        <ownedExchangeItems xsi:type="org.polarsys.capella.core.data.information:ExchangeItem"
+            id="0c3b13e8-f03d-4176-8c5b-6af1024d52d2" description="Liquid left after cleaning and descaling the equipment. Draft: NOTE-0007 (inferred)."
+            name="Used cleaning liquid"/>
+        <ownedExchangeItems xsi:type="org.polarsys.capella.core.data.information:ExchangeItem"
+            id="462467f9-9d1f-48d8-938f-394127299fa9" description="The drinker&amp;#x27;s request for guidance, replacement parts or warranty service. Draft: NOTE-0007."
+            name="Support request"/>
+        <ownedExchangeItems xsi:type="org.polarsys.capella.core.data.information:ExchangeItem"
+            id="d0140981-4849-4483-a061-3c494c2dcc59" description="The support given in response to a support request. Draft: NOTE-0007."
+            name="Guidance and replacement parts"/>
+      </ownedDataPkg>
       <ownedRolePkg xsi:type="org.polarsys.capella.core.data.oa:RolePkg" id="df33aede-3f05-436e-a177-ac315a1325cf"
           name="Roles"/>
       <ownedEntityPkg xsi:type="org.polarsys.capella.core.data.oa:EntityPkg" id="aa6df404-5957-4805-8af3-634c72c38d67"
