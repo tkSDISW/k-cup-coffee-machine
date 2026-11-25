@@ -118,7 +118,7 @@
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="8fbb88f5-ac07-4fb8-9279-98fbbe208fa1" description="The drinker&amp;#x27;s request for a serving. Draft: NOTE-0007, process PR1."
               name="Serving request" source="#30d58150-a1d2-405b-89d1-9cae77c5590d"
-              target="#50291089-5a75-4ef2-ad24-d800694b4a32"/>
+              target="#50291089-5a75-4ef2-ad24-d800694b4a32" exchangedItems="#d203b7b6-af1c-4c4e-a7ea-bf7ce4283676"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
               id="30d58150-a1d2-405b-89d1-9cae77c5590d" description="The drinker decides the variety, amount and strength of the serving and asks for it. Supports: Tailor the serving to the occasion; Prepare a serving of hot coffee on demand. Draft: NOTE-0007."
               name="Choose and request the serving"/>
